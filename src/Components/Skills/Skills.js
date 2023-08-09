@@ -1,8 +1,9 @@
 import React from 'react'
-import './../assets'
-import { skillpot1, waveport1, waveport2 } from './../assets'
-import './../Constants'
-import { AppText, skillsList, workDetail, otherskillsList, ide } from './../Constants'
+import '../../assets'
+import './Skill.css'
+import { skillpot1, waveport1, waveport2 } from '../../assets'
+import '../../Constants'
+import { AppText, skillsList, workDetail, otherskillsList, ide } from '../../Constants'
 import Typewriter from 'typewriter-effect';
 
 const Skills = () => {
@@ -36,8 +37,8 @@ const Skills = () => {
           <div>
             <h3 className='text-[20px] font-bold flex mr-5'>
               {AppText.TechSkills}
-              <span className='text-purple-600 mx-2'>
-                <Typewriter
+              <span className='text-violet-600 mx-2'>
+                <Typewriter id='typewriter'
                   options={{
                     strings: skillsList.map((item) => item.text),
                     autoStart: true,

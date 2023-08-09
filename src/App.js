@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import { NavBar, Home, Portfolio } from './Components';
+import { NavBar, Portfolio } from './Components';
+import Homee from './Components/Home/Homee';
 import AboutMe from './Components/AboutMe';
 import Companies from './Components/Companies';
 import ContactUs from './Components/ContactUs';
 import Footer from './Components/Footer';
-import Skills from './Components/Skills';
+import Skills from './Components/Skills/Skill';
 import { FiArrowUp } from "react-icons/fi";
 
 function App() {
@@ -35,21 +36,37 @@ function App() {
 
   return (
     <div className="App">
-      {/* NavBar */}
-      <NavBar />
-      {/* Home */}
-      <Home />
-      {/* About Me */}
-      <AboutMe />
-      {/* Skills */}
-      <Skills />
-      {/* Portfolio */}
-      <Portfolio />
-      {/* Companies */}
-      <Companies/>
-      {/* Contact Us */}
-      <ContactUs />
-      <Footer />
+      <div>
+        {/* NavBar */}
+        <NavBar />
+      </div>
+      <div>
+        {/* Home */}
+        <Homee />
+      </div>
+      <div>
+        {/* About Me */}
+        <AboutMe />
+      </div>
+      <div>
+        {/* Skills */}
+        <Skills />
+      </div>
+      <div>
+        {/* Portfolio */}
+        <Portfolio />   
+      </div>
+      <div>
+        {/* Companies */}
+        <Companies/>
+      </div>
+      <div>
+        {/* Contact Us */}
+        <ContactUs />
+      </div>
+      <div>
+        <Footer />
+      </div>
 
       {/* Scroll to Top Button */}
       {showScrollButton && (

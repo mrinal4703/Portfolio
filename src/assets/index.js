@@ -35,6 +35,8 @@ import kuber from './kuber.jpg'
 import elastic from './elastic.jpg'
 import foundation from './foundation.jpg'
 import prep from './prep.png'
+import flashmob from './flashmob.jpg'
+import calcapp from './calcapp.jpg'
 
 import supervised from './supervised.jpg'
 import pyoop from './pyoop.jpg'
@@ -105,7 +107,7 @@ export {
     gitlab,teachnook,
     ionic,oracle,bootstrap,mongo,cpp,java,restapi,spring,
     firebase,contactme,
-    mysql,up,
+    mysql,up,flashmob,calcapp,
     react,portfolios,tailwind,waveportfolio,wavecompanies,
     wave,wavehome,wavehome2,wavecontact,waveabout1,waveport2,waveport1,
     robo

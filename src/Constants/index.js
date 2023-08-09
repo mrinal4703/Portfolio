@@ -1,5 +1,5 @@
 import { android, tailwind,puc,mitentry,projekta,foodex, calc, compjs, fileshare, jbp, modernjs, qr, rbc,  pyoop, pystud, supervised,
-    facebook, instagram, linkdin, mysql, puthon, mit, nhps, dav, core,
+    facebook, instagram, linkdin, mysql, puthon, mit, nhps, dav, core, flashmob, calcapp,
      nodejs,backendev,frontenddev,appdev,spring,restapi,java,cpp,bootstrap,
      react, youtube, oracle, teachnook, vs,netbeans,intellije,eclipse,androidstud} from "../assets"
 
@@ -257,7 +257,23 @@ export const portfolio=[
        desc:"Get your MIT Academy of Engineering visiting pass for easy and convenient campus access.",
        imageUrl:mitentry,
        link:"https://github.com/mrinal4703/MIT_Entry_Pass"
-   },  
+   },
+   {
+       id:4,
+       title:'FlashMob',
+       type:'mobile',
+       desc:"Empower your darkness with our user-friendly flashlight app for instant brightness. FlashMob",
+       imageUrl:flashmob,
+       link:"https://github.com/mrinal4703/FlashMob"
+   },
+   {
+       id:5,
+       title:'CalcApp',
+       type:'mobile',
+       desc:"Simplify calculations with our user-friendly calculator app for quick and accurate results. CalcApp",
+       imageUrl:calcapp,
+       link:"https://github.com/mrinal4703/CalcApp"
+   },
 ]
 
 export const Education=[

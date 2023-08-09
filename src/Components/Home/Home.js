@@ -1,9 +1,9 @@
 import React from 'react'
-import './../Constants'
-import { AppText } from './../Constants'
-import './../assets'
+import '../../Constants'
+import { AppText } from '../../Constants'
+import '../../assets'
 import './Home.css'
-import { me, wavehome } from './../assets'
+import { me, wavehome } from '../../assets'
 import Typewriter from 'typewriter-effect';
 import { FiLinkedin, FiInstagram, FiMail, FiGithub, FiFacebook } from "react-icons/fi";
 
@@ -34,7 +34,7 @@ const Home = () => {
             <div className='flex'>
             <h1 className='text-[35px] text-white md:text-[40px] font-bold mr-3'>{AppText.Iam}</h1>
             
-            <Typewriter id="typewriter" className="typewriter"
+            <Typewriter
   options={{
     strings: [AppText.MrinalGupta, AppText.FrontedDeveloper, AppText.BackendDeveloper, AppText.AndroidDeveloper],
     autoStart: true,

@@ -54,7 +54,9 @@ const Portfolio = () => {
             {portfolioList.map((item, index) => (
               <div key={index} className="p-2 flex flex-col m-2 rounded-lg bg-purple-100 transition-all ease-in-out group hover:scale-110">
                 <a href={item.link} target="_blank" rel="noopener noreferrer" className="text-[12px] text-purple-600 text-center no-underline hover:text-purple-800">
-                  <img src={item.imageUrl} className="h-[180px] object-cover rounded-lg" alt="" />
+                <div class="flex items-center justify-center">
+                  <img src={item.imageUrl} class="h-[180px] object-cover rounded-lg" alt="" />
+                </div>
                   <h1 className="text-[14px] group-hover:scale-110 mt-2 text-center font-bold">
                     {item.title}
                   </h1>
