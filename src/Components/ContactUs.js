@@ -1,8 +1,8 @@
 import React from 'react'
-import {wavecontact, contactme, tele, wavecontact1, wavehome} from '../assets'
+import {contactme, tele} from '../assets'
 import {AppText} from '../Constants'
 import SectionHeading1 from '../Shared/SectionHeading1'
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import {TbMailShare} from "react-icons/tb";
 
 function ContactUs() {

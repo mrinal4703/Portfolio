@@ -3,19 +3,19 @@ import '../Constants'
 import {AppText} from '../Constants'
 import '../assets'
 import './Home.css'
-import {me, wavehome, wavecontact1, wavehme1, wavehme2} from '../assets'
+import {me, wavehme1, wavehme2} from '../assets'
 import Typewriter from 'typewriter-effect';
 import {FiLinkedin, FiInstagram, FiMail, FiGithub, FiFacebook} from "react-icons/fi";
 import {useState, useEffect} from 'react';
 import {Education} from '../Constants';
-import {
-    VerticalTimeline,
-    VerticalTimelineElement,
-} from 'react-vertical-timeline-component';
+// import {
+//     VerticalTimeline,
+//     VerticalTimelineElement,
+// } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import {wave, melappy, waveabout1, wavehm1,} from './../assets';
 import {aboutSection} from '../Constants';
-import Footer from './Footer'
+// import Footer from './Footer'
 
 const Home = () => {
 

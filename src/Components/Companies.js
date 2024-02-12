@@ -1,9 +1,9 @@
 import React from 'react'
 import SectionHeading from '../Shared/SectionHeading'
 import './../Constants'
-import {wavecompanies, internship, wavecontact1} from './../assets'
+import {internship} from './../assets'
 import {AppText, CompanyImage, Internship} from './../Constants'
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 const Companies = () => {
     return (

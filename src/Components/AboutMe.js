@@ -96,40 +96,4 @@ const AboutMe = () => {
   );
 };
 
-{/* {showTimeline && (
-      <div className='w-full md:w-3/5 transition-all ease-in-out bg-violet-900 mx-auto mb-0 rounded-lg'>
-        <VerticalTimeline>
-          {Education.map((item, index) => (
-            <VerticalTimelineElement key={item.id}
-            className="vertical-timeline-element"
-            contentStyle={{ background: 'white', color: 'black' }}
-            contentArrowStyle={{ borderRight: '7px solid white' }}
-            date={
-              <span className="text-slate-50">
-                {item.date}
-              </span>
-            }
-            icon={
-              <div className="w-full h-full bg-purple-500 rounded-full" style={{ backgroundImage: `url(${item.imageUrl})`, backgroundSize: 'cover' }}/>}>
-                <div className={`bg-white w-full transition-all ease-in-out hover:scale-110 justify-center p-1 m-0 text-center items-center group md:hover:bg-violet-900 rounded-lg ${index % 2 === 0 ? 'md:w-full md:order-first' : 'md:w-full md:order-last'}`}>
-                  <h1 className='text-[15px] vertical-timeline-element-title mt-2 font-bold md:group-hover:text-white'>
-                    {item.educationName}
-                  </h1>
-                  <h3 className='text-[12.5px] text-center my-2 md:group-hover:text-gray-200 text-gray-500'>
-                    {item.schoolName}
-                  </h3>
-                  <h3 className='text-[10px] text-center my-2 md:group-hover:text-gray-200 text-gray-500'>
-                    {item.text}
-                  </h3>
-                  <h3 className='text-[10px] text-center mb-0 md:group-hover:text-gray-200 text-gray-500'>
-                    {item.performance}
-                  </h3>
-                </div>
-            </VerticalTimelineElement>
-
-          ))}
-        </VerticalTimeline>
-      </div>
-    )} */}
-
 export default AboutMe;

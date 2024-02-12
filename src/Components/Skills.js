@@ -2,21 +2,17 @@ import React, {useEffect, useState} from 'react';
 import '../assets';
 import './Skill.css';
 import {
-    skillpot1,
-    waveport1,
-    waveport2,
-    wavehome, wavecontact1
+    skillpot1
 } from '../assets';
 import '../Constants';
 import {
     AppText,
     skillsList,
     workDetail,
-    otherskillsList,
     ide
 } from '../Constants';
-import Typewriter from 'typewriter-effect';
-import Footer from "./Footer";
+// import Typewriter from 'typewriter-effect';
+// import Footer from "./Footer";
 
 const Skills = () => {
 

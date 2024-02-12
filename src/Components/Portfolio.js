@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { AppText, portfolio } from '../Constants';
 import SectionHeading1 from '../Shared/SectionHeading1';
-import {portfolios, wavecontact1, waveportfolio} from './../assets/index';
+import {portfolios} from './../assets/index';
 import { FiSmartphone, FiMonitor, FiClock } from 'react-icons/fi';
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 const Portfolio = () => {
   const [isHovered, setIsHovered] = useState(false);
