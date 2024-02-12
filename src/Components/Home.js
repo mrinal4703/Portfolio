@@ -8,6 +8,7 @@ import Typewriter from 'typewriter-effect';
 import {FiLinkedin, FiInstagram, FiMail, FiGithub, FiFacebook} from "react-icons/fi";
 import {useState, useEffect} from 'react';
 import {Education} from '../Constants';
+
 // import {
 //     VerticalTimeline,
 //     VerticalTimelineElement,

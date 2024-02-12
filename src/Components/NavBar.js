@@ -35,7 +35,7 @@ const NavBar = () => {
             <Link to="/contact" onClick={handleMenuItemClick}>Contact Me</Link>
           </li>
           <li className="menuItem hover:scale-110">
-            <a href={resume} target={'_blank'} onClick={handleMenuItemClick}>Resume</a>
+            <a href={resume} target="_blank" rel="noreferrer" onClick={handleMenuItemClick}>Resume</a>
           </li>
         </ul>
         <div className="flex flex-col items-end">
@@ -70,7 +70,7 @@ const NavBar = () => {
                 <Link to="/contact">Contact Me</Link>
               </li>
               <li className="menuItem p-3 hover:scale-110" onClick={handleMenuItemClick}>
-                <a href={resume} target={'_blank'}>Resume</a>
+                <a href={resume} target={'_blank'} rel="noreferrer">Resume</a>
               </li>
             </ul>
           ) : null}
