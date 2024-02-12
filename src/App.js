@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import { NavBar, Portfolio } from './Components';
-import Homee from './Components/Home/Homee';
+import Home from './Components/Home';
 import AboutMe from './Components/AboutMe';
 import Companies from './Components/Companies';
 import ContactUs from './Components/ContactUs';
 import Footer from './Components/Footer';
-import Skills from './Components/Skills/Skill';
-import { FiArrowUp } from "react-icons/fi";
+import Skills from './Components/Skills';
+import { FiArrowUp } from 'react-icons/fi';
+import {wavecontact1, wavehome} from "./assets";
 
 function App() {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -17,7 +19,6 @@ function App() {
   };
 
   const handleScroll = () => {
-    // Show/hide the scroll-to-top button based on the user's scroll position
     if (window.scrollY > 100) {
       setShowScrollButton(true);
     } else {
@@ -25,8 +26,6 @@ function App() {
     }
   };
 
-  // Add an event listener to handle scrolling
-  // This will show/hide the scroll-to-top button as needed
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => {
@@ -36,44 +35,31 @@ function App() {
 
   return (
     <div className="App">
-      <div>
-        {/* NavBar */}
+      <Router>
         <NavBar />
-      </div>
-      <div>
-        {/* Home */}
-        <Homee />
-      </div>
-      <div>
-        {/* About Me */}
-        <AboutMe />
-      </div>
-      <div>
-        {/* Skills */}
-        <Skills />
-      </div>
-      <div>
-        {/* Portfolio */}
-        <Portfolio />   
-      </div>
-      <div>
-        {/* Companies */}
-        <Companies/>
-      </div>
-      <div>
-        {/* Contact Us */}
-        <ContactUs />
-      </div>
-      <div>
-        <Footer />
-      </div>
+        <img src={wavehome} className="w-screen m-0 absolute z-[-1]" alt='' />
+        <div className="route-transition">
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            {/* <Route exact path="/aboutme" element={<AboutMe />} /> */}
+            <Route exact path="/skills" element={<Skills />} />
+            <Route exact path="/companies" element={<Companies />} />
+            <Route exact path="/contact" element={<ContactUs />} />
+            <Route exact path="/portfolio" element={<Portfolio />} />
 
-      {/* Scroll to Top Button */}
-      {showScrollButton && (
-        <button className="scrollToTopButton bg-gradient-to-br from-purple-900 to-purple-600" onClick={handleScrollToTop}>
-          <FiArrowUp className="hover:animate-bounce"/>
-        </button>
-      )}
+          </Routes>
+        </div>
+        <div className=''>
+          <img src={wavecontact1} className="w-screen my-0 z-[-1]" alt=''/>
+        </div>
+        <Footer/>
+
+        {showScrollButton && (
+          <button className="scrollToTopButton bg-gradient-to-br from-purple-900 to-purple-600" onClick={handleScrollToTop}>
+            <FiArrowUp className="hover:animate-bounce" />
+          </button>
+        )}
+      </Router>
     </div>
   );
 }

@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { AppText, portfolio } from '../Constants';
 import SectionHeading1 from '../Shared/SectionHeading1';
-import { portfolios, waveportfolio } from './../assets/index';
+import {portfolios, wavecontact1, waveportfolio} from './../assets/index';
 import { FiSmartphone, FiMonitor, FiClock } from 'react-icons/fi';
+import Footer from "./Footer";
 
 const Portfolio = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -24,12 +25,11 @@ const Portfolio = () => {
   };
 
   return (
-    <div id='portfolio' className="relative m-0 pb-2 overflow-hidden">
-      <img src={waveportfolio} className="w-screen absolute bottom-0 m-0 z-[-1]" alt="" />
+    <div id='portfolio' className="relative m-0 overflow-hidden">
       <div className="mt-5 flex justify-center flex-col">
         <div className="flex flex-row px-6 md:px-0 items-center justify-center">
           <SectionHeading1 firstTitle={AppText.Creative} secondTitle={AppText.Portfolio} />
-          <img src={portfolios} className="w-[90px] hover:animate-bounce mb-5 ml-5" alt="" />
+          <img src={portfolios} className="w-[90px] transition ease-in-out delay-100 hover:scale-110 mb-5 ml-5" alt="" />
         </div>
         <div className="flex flex-row justify-evenly gap-2 px-4 md:px-72">
           <button onClick={() => filterPortfolio('All')} className="border-purple-600 border-2 text-purple-600 focus:text-white active:bg-purple-500 p-1 px-4 rounded-md focus:ring-violet-300 focus:bg-purple-600 focus:ring text-3xl">

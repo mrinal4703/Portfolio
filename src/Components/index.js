@@ -1,6 +1,6 @@
 
 import NavBar from "./NavBar"
-import Home from "./Home/Home"
+import Home from "./Home"
 import Portfolio from "./Portfolio"
 
 

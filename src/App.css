@@ -20,6 +20,17 @@
   color: white;
 }
 
+/* Apply transition effects to the route content */
+.route-transition > div {
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Define a class to hide the route content */
+.route-transition > div.hidden {
+  opacity: 0;
+}
+
+
 .App-link {
   color: #61dafb;
 }

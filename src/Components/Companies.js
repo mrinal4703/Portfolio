@@ -1,36 +1,37 @@
 import React from 'react'
 import SectionHeading from '../Shared/SectionHeading'
 import './../Constants'
-import { wavecompanies, internship } from './../assets'
-import { AppText, CompanyImage, Internship } from './../Constants'
+import {wavecompanies, internship, wavecontact1} from './../assets'
+import {AppText, CompanyImage, Internship} from './../Constants'
+import Footer from "./Footer";
+
 const Companies = () => {
-  return (
-    <div id='companies'>
-      {/* <img src={wavecompanies}  className="w-screen absolute z-[-1] top-0" alt='' /> */}
-      <div className=' bg-violet-900 absolute w-screen p-2'>
-      </div>
-      <img src={wavecompanies} className="w-screen absolute z-[-1] m-0" alt='' />
-      <div className='p-5'>
-        <div className='flex justify-center pt-2 items-center flex-col'>
-        <div className='flex flex-row  justify-center'>
-        <img src={internship} className="w-[65px] hover:animate-bounce mx-2" alt=''/>
-        <SectionHeading firstTitle={ AppText.CompaniesI} secondTitle={AppText.WorkedFor} className='' />
-        </div>
+    return (
+        <div id='companies'>
+            {/* <img src={wavecompanies}  className="w-screen absolute z-[-1] top-0" alt='' /> */}
+            {/*<img src={wavecompanies} className="w-screen absolute z-[-1] m-0" alt=''/>*/}
+            <div className='p-5'>
+                <div className='flex justify-center pt-2 items-center flex-col'>
+                    <div className='flex flex-row  justify-center'>
+                        <img src={internship} className="w-[65px] hover:animate-bounce mx-2" alt=''/>
+                        <SectionHeading firstTitle={AppText.CompaniesI} secondTitle={AppText.WorkedFor} className=''/>
+                    </div>
 
-        <div className='flex flex-col md:flex-row  justify-evenly px-8 md:px-0 mt-8 '>
-          <div className='grid grid-cols-4 md:grid-cols-4 gap-8  items-center'>
-            {CompanyImage.map((item, index)=>(
-                <div className='transition ease-in-out delay-100 hover:scale-125 bg-transparent shadow-lg' >
-                    <img src={item.imageUrl} className="w-[150px] m-auto" alt=''/>
-                    {/* {item.imageUrl} */}
-                    {/* {item.companydesc} */}
-                </div>
-               
-            ))}
-          </div>
-        </div>
+                    <div className='flex flex-col md:flex-row  justify-evenly px-8 md:px-0 mt-8 '>
+                        <div className='grid grid-cols-4 md:grid-cols-4 gap-8  items-center'>
+                            {CompanyImage.map((item, index) => (
+                                <div
+                                    className='transition ease-in-out delay-100 hover:scale-125 bg-transparent shadow-lg'>
+                                    <img src={item.imageUrl} className="w-[150px] m-auto" alt=''/>
+                                    {/* {item.imageUrl} */}
+                                    {/* {item.companydesc} */}
+                                </div>
 
-        {/* <div className='grid grid-cols-4 items-center md:grid-cols-4 lg:grid-cols-4 m-4'>
+                            ))}
+                        </div>
+                    </div>
+
+                    {/* <div className='grid grid-cols-4 items-center md:grid-cols-4 lg:grid-cols-4 m-4'>
             {Internship.map((item,index)=>(
               <div className='card items-center justify-center transition-all ease-in-out hover:scale-105 bg-violet-200 m-2 p-2 align-middle rounded-lg group md:hover:bg-violet-800 shadow-md w-100 h-100'>
               
@@ -48,32 +49,33 @@ const Companies = () => {
             ))}
         </div> */}
 
-<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 m-4'>
-  {Internship.map((item, index) => (
-    <div key={index} className='card items-center justify-center transition-all ease-in-out hover:scale-105 bg-violet-200 p-2 align-middle rounded-lg group hover:bg-violet-800 shadow-md'>
-      <div className='text-center'>
-        <img
-          src={item.imageUrl}
-          className='h-[150px] bg-white rounded mb-2 mx-auto p-0.5'
-          alt=''
-        />
-        <div className='font-bold mb-1'>
-          <h1 className='mt-4 md:group-hover:text-gray-200'>{item.companydesc}</h1>
-        </div>
-        <div>
-          <h3 className='font-thin text-base text-slate-500 my-2 md:group-hover:text-white'>{item.company}</h3>
-          <h3 className='text-sm text-slate-500 md:group-hover:text-white'>{item.duration}</h3>
-        </div>
-      </div>
-    </div>
-  ))}
-</div>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 m-4'>
+                        {Internship.map((item, index) => (
+                            <div key={index}
+                                 className='card items-center justify-center transition-all ease-in-out hover:scale-105 bg-violet-200 p-2 align-middle rounded-lg group hover:bg-violet-800 shadow-md'>
+                                <div className='text-center'>
+                                    <img
+                                        src={item.imageUrl}
+                                        className='h-[150px] bg-white rounded mb-2 mx-auto p-0.5'
+                                        alt=''
+                                    />
+                                    <div className='font-bold mb-1'>
+                                        <h1 className='mt-4 md:group-hover:text-gray-200'>{item.companydesc}</h1>
+                                    </div>
+                                    <div>
+                                        <h3 className='font-thin text-base text-slate-500 my-2 md:group-hover:text-white'>{item.company}</h3>
+                                        <h3 className='text-sm text-slate-500 md:group-hover:text-white'>{item.duration}</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
 
-        
+
+                </div>
+            </div>
         </div>
-    </div>
-    </div>
-  )
+    )
 }
 
 export default Companies

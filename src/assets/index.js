@@ -5,14 +5,23 @@ import homeImage from './homeImage.png'
 import book from './book.png'
 import laptop from './laptop.png'
 import skill from './skill.png'
+import resume from './Mrinal-Gupta-Resume-SWEng.pdf'
 import skillpot from './skillpot.png'
 import skillpot1 from './skillpot1.png'
 import me from './me.png'
+import aws from './aws.png'
+import dsa0 from './dsa0.png'
+import dsa from './dsa.png'
+import dsa1 from './dsa1.png'
+import dsa2 from './dsa2.png'
 import lappy from './lappy.png'
 import melappy from './melappy.png'
 
+
+import devcpp from './devcpp.png'
 import foodex from './foodex.jpg'
 import puc from './puc.jpg'
+import rakshak from './rakshak.jpg'
 import mitentry from './mitentry.jpg'
 import projekta from './projekta.jpg'
 import tele from './tele.png'
@@ -56,8 +65,12 @@ import oracle from './oracle.png'
 import wave from './wave.svg'
 import tailwind from './tailwind.png'
 import wavehome from './wavehome.svg'
+import wavehm1 from './wavehm1.svg'
+import wavehme1 from './wavehme1.svg'
+import wavehme2 from './wavehme2.svg'
 import wavehome2 from './wavehome2.svg'
 import wavecontact from './wavecontact.svg'
+import wavecontact1 from './wavecontact1.svg'
 import waveport1 from './waveport1.svg'
 import waveport2 from './waveport2.svg'
 import waveportfolio from './waveportfolio.svg'
@@ -89,6 +102,8 @@ import qr from './qr.jpg'
 import rbc from './rbc.jpg'
 
 import vs from './vs.png'
+import windows from './windows.png'
+import linux from './linux.png'
 import netbeans from './netbeans.png'
 import intellije from './intellije.png'
 import eclipse from './eclipse.png'
@@ -101,15 +116,14 @@ export {
     book,tele,core,foundation,fundamentals,elastic,kuber,prep,
     laptop,puthon,CyberOpsAssoc,introcybersec,
     skill,skillpot,skillpot1,vs,netbeans,intellije,eclipse,androidstud,
-    angular,backendev,frontenddev,appdev,
-    typescript,mit,nhps,dav,
-    android,mitentry,projekta,puc,foodex,
-    gitlab,teachnook,
+    angular,backendev,frontenddev,appdev,linux,
+    typescript,mit,nhps,dav,windows,
+    android,mitentry,projekta,puc,foodex,rakshak,
+    gitlab,teachnook,aws,resume,
     ionic,oracle,bootstrap,mongo,cpp,java,restapi,spring,
     firebase,contactme,
-    mysql,up,flashmob,calcapp,
+    mysql,up,flashmob,calcapp,devcpp,
     react,portfolios,tailwind,waveportfolio,wavecompanies,
-    wave,wavehome,wavehome2,wavecontact,waveabout1,waveport2,waveport1,
-    robo
-
+    wave,wavehome,wavehome2,wavecontact,waveabout1,waveport2,waveport1,wavecontact1,wavehm1,wavehme1,wavehme2,
+    robo, dsa, dsa0, dsa1, dsa2
 }
