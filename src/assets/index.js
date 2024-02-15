@@ -5,7 +5,8 @@ import homeImage from './homeImage.png'
 import book from './book.png'
 import laptop from './laptop.png'
 import skill from './skill.png'
-import resume from './Mrinal-Gupta-Resume-SWEng.pdf'
+// import resume from './Mrinal-Gupta-Resume-SWEng.pdf'
+import resume from './Mrinal SWE Resume.pdf'
 import skillpot from './skillpot.png'
 import skillpot1 from './skillpot1.png'
 import me from './me.png'
@@ -16,7 +17,7 @@ import dsa1 from './dsa1.png'
 import dsa2 from './dsa2.png'
 import lappy from './lappy.png'
 import melappy from './melappy.png'
-
+import pycharm from './pycharm.png'
 
 import devcpp from './devcpp.png'
 import foodex from './foodex.jpg'
@@ -100,6 +101,8 @@ import jbp from './jbp.jpg'
 import modernjs from './modernjs.jpg'
 import qr from './qr.jpg'
 import rbc from './rbc.jpg'
+import ubuntu from './ubuntu.png'
+import jupyter from './jupyter.png'
 
 import vs from './vs.png'
 import windows from './windows.png'
@@ -125,5 +128,5 @@ export {
     mysql,up,flashmob,calcapp,devcpp,
     react,portfolios,tailwind,waveportfolio,wavecompanies,
     wave,wavehome,wavehome2,wavecontact,waveabout1,waveport2,waveport1,wavecontact1,wavehm1,wavehme1,wavehme2,
-    robo, dsa, dsa0, dsa1, dsa2
+    robo, dsa, dsa0, dsa1, dsa2, pycharm, ubuntu, jupyter
 }

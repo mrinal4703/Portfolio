@@ -4,6 +4,7 @@ import {
     puc,
     mitentry,
     projekta,
+    jupyter,
     foodex,
     calc,
     compjs,
@@ -11,6 +12,7 @@ import {
     jbp,
     modernjs,
     qr,
+    ubuntu,
     rbc,
     pyoop,
     pystud,
@@ -40,6 +42,7 @@ import {
     oracle,
     teachnook,
     vs,
+    pycharm,
     netbeans,
     intellije,
     eclipse,
@@ -289,7 +292,7 @@ export const workDetail = [
 export const portfolio = [
     {
         id: 1,
-        title: 'Foodex',
+        title: 'Foodex Food Delivery Platform',
         type: 'website',
         desc: "Delicious food delivered fast to your doorstep. Easy ordering, wide menu, and quick service.",
         imageUrl: foodex,
@@ -321,7 +324,7 @@ export const portfolio = [
     },
     {
         id: 3,
-        title: 'Foodex',
+        title: 'Foodex - 2',
         type: 'website',
         desc: "Delicious food delivered fast to your doorstep. Easy ordering, wide menu, and quick service. (Better UI)",
         imageUrl: foodex,
@@ -426,6 +429,21 @@ export const ide = [
         id: 1,
         icon: linux,
         text: 'Unix OS'
+    },
+    {
+        id: 1,
+        icon: pycharm,
+        text: 'PyCharm'
+    },
+    {
+        id: 1,
+        icon: ubuntu,
+        text: 'Ubuntu OS'
+    },
+    {
+        id: 1,
+        icon: jupyter,
+        text: 'Jupyter'
     }
 ]
 
