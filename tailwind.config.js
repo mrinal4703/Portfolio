@@ -9,6 +9,9 @@ module.exports = {
       colors: {
         customBlack: '#000001',
       },
+      screens: {
+        'xs': '360px',
+      },
     },
   },
   variants:{
