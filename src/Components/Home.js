@@ -112,7 +112,7 @@ const Home = () => {
                                     </div>
 
                                     <div className={'md:w-1/2 md:mr-80 xls:w-screen'}>
-                                        <h1 className='lg:my-5 md:my-2 text-neutral-300 text-base lg:text-base md:text-sm sm:text-sm md:w-full xls:w-screen lg:text-white md:text-white sm:text-white xls:text-black xls:text-[14px] xls:font-medium lg:mt-2 xls:mt-0 md:ml-0 xls:ml-[-10px]'>
+                                        <h1 className='lg:my-5 md:my-2 text-neutral-300 text-base lg:text-base md:text-sm sm:text-sm md:w-full xls:w-screen lg:text-white md:text-white sm:text-white xls:text-black xls:text-[14px] xls:font-medium lg:mt-2 xls:mt-0 md:ml-0 xls:ml-[-12px]'>
                                             Enthusiastic full-stack developer skilled in web, Android, and C++
                                             competitive
                                             programming. Proficient in React.js, Tailwind CSS, Node.js, JSON, and
