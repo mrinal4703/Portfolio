@@ -72,7 +72,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className='flex flex-col pt-1 mx-1 pb-6 md:flex-row justify-center px-8 md:px-0 xls:px-2 md:ml-0 xls:ml-[-35px] mt-8'>
+                    <div className='flex flex-col pt-1 mx-1 pb-6 md:flex-row justify-center px-8 md:px-0 xls:px-2 md:ml-0 xls:ml-[-36px] mt-8'>
                         <div className='flex flex-col md:flex-row mx-auto justify-evenly px-8 md:px-0'>
                             <div className='grid grid-cols-6 md:grid-cols-6 md:gap-8 xls:gap-x-12 xls:gap-y-5 items-center'>
                                 {skillsList.map((item, index) => (
