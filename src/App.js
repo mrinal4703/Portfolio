@@ -37,7 +37,7 @@ function App() {
     <div className="App">
       <Router>
         <NavBar />
-        <img src={wavehome} className="lg:w-screen m-0 md:w-screen xs:w-screen absolute z-[-1]" alt='' />
+        <img src={wavehome} className="lg:w-screen m-0 md:w-screen xls:h-[-50px] xls:w-screen absolute z-[-1]" alt='' />
         <div className="route-transition">
           <Routes>
             <Route exact path="/" element={<Home />} />

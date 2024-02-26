@@ -39,6 +39,7 @@ import {
     bootstrap,
     react,
     // youtube,
+    // ccnaintro,
     oracle,
     teachnook,
     vs,
@@ -73,8 +74,8 @@ export const AppText = {
     CompetitiveProgrammer: 'Competitive Programmer',
     Portfolio: 'Portfolio',
     Creative: 'My Creative ',
-    CompaniesI: 'Internships ',
-    WorkedFor: '& Badges',
+    CompaniesI: 'Internships, Badges ',
+    WorkedFor: '& Achievements',
     Contact: 'Contact ',
     Us: 'Me',
     copywriteText: 'Copyright by Mrinal Gupta @2023'
@@ -150,13 +151,13 @@ export const otherskillsList = [
 export const skillsList = [
     {
         id: 1,
-        icon: spring,
-        text: 'Spring MVC n Boot'
+        icon: react,
+        text: 'ReactJS'
     },
     {
         id: 1,
-        icon: react,
-        text: 'ReactJS'
+        icon: spring,
+        text: 'Spring MVC n Boot'
     },
     {
         id: 1,
@@ -165,8 +166,8 @@ export const skillsList = [
     },
     {
         id: 1,
-        icon: java,
-        text: 'JAVA'
+        icon: oracle,
+        text: 'Oracle SQL'
     },
     {
         id: 1,
@@ -175,8 +176,8 @@ export const skillsList = [
     },
     {
         id: 1,
-        icon: oracle,
-        text: 'Oracle SQL'
+        icon: java,
+        text: 'JAVA'
     },
     {
         id: 1,
@@ -459,11 +460,53 @@ export const Internship = [
 
 export const CompanyImage = [
     {
-        id: 1,
-        imageUrl: 'https://images.credly.com/size/680x680/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png',
-        companydesc: 'Introduction to Cyber Security',
+        id: 3,
+        imageUrl: 'https://images.credly.com/size/680x680/images/4f514a93-8f7a-424c-aeca-2e8f79612bc5/image.png',
+        companydesc: 'AWS Academy Graduate - AWS Academy Data Engineering',
+        company: 'AWS Academy Graduate',
+        duration: 'February 10, 2024'
+    },
+    {
+        id: 3,
+        imageUrl: 'https://images.credly.com/size/680x680/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png',
+        companydesc: 'Microsoft Certified: Azure Fundamentals',
+        company: 'Microsoft',
+        duration: 'December 30, 2023'
+    },
+    {
+        id: 3,
+        imageUrl: 'https://images.credly.com/size/680x680/images/0a6d331e-8abf-4272-a949-33f754569a76/CCNAENSA__1_.png',
+        companydesc: 'CCNA: Enterprise Networking, Security, and Automation',
         company: 'Cisco',
-        duration: 'November 30, 2022',
+        duration: 'November 16, 2023'
+    },
+    {
+        id: 3,
+        imageUrl: 'https://images.credly.com/size/220x220/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png',
+        companydesc: 'CCNA: Switching, Routing, and Wireless Essentials',
+        company: 'Cisco',
+        duration: 'November 02, 2023'
+    },
+    {
+        id: 3,
+        imageUrl: 'https://images.credly.com/size/680x680/images/2f7b0627-48a0-4894-8d46-3245bdfe0463/image.png',
+        companydesc: 'AWS Academy Graduate - AWS Academy Cloud Architecting',
+        company: 'AWS Academy Graduate',
+        duration: 'October 29, 2023'
+    },
+    {
+        id: 3,
+        imageUrl: 'https://images.credly.com/size/220x220/images/73e4a58b-a8ef-41a3-a7db-9183dd269882/image.png',
+        companydesc: 'AWS Academy Graduate - AWS Academy Cloud Foundations',
+        company: 'AWS Academy Graduate',
+        duration: 'October 08, 2023'
+    },
+    {
+        id: 3,
+        imageUrl: 'https://images.credly.com/size/220x220/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png',
+        companydesc: 'CCNA: Introduction to Networks',
+        company: 'Cisco',
+        duration: 'October 01, 2023'
     },
     {
         id: 2,
@@ -473,46 +516,11 @@ export const CompanyImage = [
         duration: 'January 30, 2023',
     },
     {
-        id: 3,
-        imageUrl: 'https://cdn.qwiklabs.com/SDepCZ78um1f1ZaiwClRJG8uZNZz37ig9Ee6jTr6t80%3D',
-        companydesc: 'Google Cloud Fundamentals: Core Infrastructure',
-        company: 'Google Cloud Program',
-        duration: 'Earned Jul 2, 2023 EDT'
-    },
-    {
-        id: 4,
-        imageUrl: 'https://cdn.qwiklabs.com/IYAaz1Bf0zE6Wx7EwDHuQf%2Fz3bAGqEX0bB0FSDxF4dM%3D',
-        companydesc: 'Essential Google Cloud Infrastructure: Foundation',
-        company: 'Google Cloud Program',
-        duration: 'Earned Jul 27, 2023 EDT',
-    },
-    {
-        id: 5,
-        imageUrl: 'https://cdn.qwiklabs.com/taguCrTO%2BOPLJFNi8l8uQ8MEZdsUj41VnHE6fvyMRwc%3D',
-        companydesc: 'Essential Google Cloud Infrastructure: Core Services',
-        company: 'Google Cloud Program',
-        duration: 'Earned Jul 27, 2023 EDT',
-    },
-    {
-        id: 6,
-        imageUrl: 'https://cdn.qwiklabs.com/rlCfLoIAfqvBcsHQHk%2B%2BRY5RF6JMXwk3eChbVr2djrI%3D',
-        companydesc: 'Elastic Google Cloud Infrastructure: Scaling and Automation',
-        company: 'Google Cloud Program',
-        duration: 'Earned Jul 28, 2023 EDT',
-    },
-    {
-        id: 7,
-        imageUrl: 'https://cdn.qwiklabs.com/TppAfXo%2BzMzd7kB%2F4K7nr6W96Llhqz4U2AC8Xw1yvI8%3D',
-        companydesc: 'Getting Started with Google Kubernetes Engine',
-        company: 'Google Cloud Program',
-        duration: 'Earned Jul 28, 2023 EDT',
-    },
-    {
-        id: 7,
-        imageUrl: 'https://cdn.qwiklabs.com/FIekmHxPkMQM3P%2BTzRRtGbv%2FRXLX897RvT8F6oT2XxA%3D',
-        companydesc: 'Preparing for Your Associate Cloud Engineer Journey',
-        company: 'Google Cloud Program',
-        duration: 'Earned Jul 29, 2023 EDT',
+        id: 1,
+        imageUrl: 'https://images.credly.com/size/680x680/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png',
+        companydesc: 'Introduction to Cyber Security',
+        company: 'Cisco',
+        duration: 'November 30, 2022',
     }
 ]
 

@@ -17,7 +17,7 @@ const NavBar = () => {
 
   return (
     <div className="w-full z-1 bg-black p-[10px] flex justify-between items-center">
-      <Link to="/" onClick={handleMenuItemClick}><img src={mylogo1} className="lg:h-[60px] md:h-[60px] sm:h-[60px] xs:h-[50px] mb-0" alt='LOGO'/></Link>
+      <Link to="/" onClick={handleMenuItemClick}><img src={mylogo1} className="lg:h-[60px] md:h-[60px] sm:h-[60px] xls:h-[50px] mb-0" alt='LOGO'/></Link>
       {/*<h1 className={'xs:text-md xs:text-white'}>Mrinal Gupta</h1>*/}
       <div>
         <ul className="hidden text-white md:flex">
@@ -31,7 +31,7 @@ const NavBar = () => {
             <Link to="/portfolio" onClick={handleMenuItemClick}>Portfolio</Link>
           </li>
           <li className="menuItem hover:scale-110">
-            <Link to="/companies" onClick={handleMenuItemClick}>Internships</Link>
+            <Link to="/companies" onClick={handleMenuItemClick}>Achievements</Link>
           </li>
           <li className="menuItem hover:scale-110">
             <Link to="/contact" onClick={handleMenuItemClick}>Contact Me</Link>
@@ -66,7 +66,7 @@ const NavBar = () => {
                 <Link to="/portfolio">Portfolio</Link>
               </li>
               <li className="menuItem p-3 hover:scale-110" onClick={handleMenuItemClick}>
-                <Link to="/companies">Internships</Link>
+                <Link to="/companies">Achievements</Link>
               </li>
               <li className="menuItem p-3 hover:scale-110" onClick={handleMenuItemClick}>
                 <Link to="/contact">Contact Me</Link>

@@ -26,12 +26,12 @@ const Portfolio = () => {
 
   return (
     <div id='portfolio' className="relative m-0 overflow-hidden">
-      <div className="mt-5 flex justify-center flex-col">
+      <div className="md:mt-5 xls:mt-3 flex justify-center flex-col">
         <div className="flex flex-row px-6 md:px-0 items-center justify-center">
           <SectionHeading1 firstTitle={AppText.Creative} secondTitle={AppText.Portfolio} />
-          <img src={portfolios} className="w-[90px] transition ease-in-out delay-100 hover:scale-110 mb-5 ml-5" alt="" />
+          <img src={portfolios} className="md:w-[90px] xls:w-[70px] transition ease-in-out delay-100 hover:scale-110 mb-5 ml-5" alt="" />
         </div>
-        <div className="flex flex-row justify-evenly gap-2 px-4 md:px-72">
+        <div className="flex flex-row justify-evenly gap-2 px-4 md:mt-0 xls:mt-5 md:px-72">
           <button onClick={() => filterPortfolio('All')} className="border-purple-600 border-2 text-purple-600 focus:text-white active:bg-purple-500 p-1 px-4 rounded-md focus:ring-violet-300 focus:bg-purple-600 focus:ring text-3xl">
             All
           </button>
@@ -52,7 +52,7 @@ const Portfolio = () => {
         ) : (
           <div className="grid grid-cols-2 items-center content-center md:grid-cols-3 lg:grid-cols-3 md:px-24 lg:px-48 p-4">
             {portfolioList.map((item, index) => (
-              <div key={index} className="p-2 flex flex-col m-2 rounded-lg bg-purple-100 transition-all ease-in-out group hover:scale-110">
+              <div key={index} className="p-2 flex flex-col m-2 rounded-lg bg-purple-100 transition-all ease-in-out group hover:scale-105 shadow-lg border-2 border-purple-600">
                 <a href={item.link} target="_blank" rel="noopener noreferrer" className="text-[12px] text-purple-600 text-center no-underline hover:text-purple-800">
                 <div class="flex items-center justify-center">
                   <img src={item.imageUrl} class="h-[180px] object-cover rounded-lg" alt="" />

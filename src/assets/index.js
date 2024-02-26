@@ -5,6 +5,9 @@ import homeImage from './homeImage.png'
 import book from './book.png'
 import laptop from './laptop.png'
 import skill from './skill.png'
+import backimage from './backimage.jpg'
+import backimage1 from './backimage1.jpg'
+
 // import resume from './Mrinal-Gupta-Resume-SWEng.pdf'
 import resume from './Mrinal SWE Resume.pdf'
 import skillpot from './skillpot.png'
@@ -120,7 +123,7 @@ export {
     laptop,puthon,CyberOpsAssoc,introcybersec,
     skill,skillpot,skillpot1,vs,netbeans,intellije,eclipse,androidstud,
     angular,backendev,frontenddev,appdev,linux,
-    typescript,mit,nhps,dav,windows,
+    typescript,mit,nhps,dav,windows, backimage, backimage1,
     android,mitentry,projekta,puc,foodex,rakshak,
     gitlab,teachnook,aws,resume,
     ionic,oracle,bootstrap,mongo,cpp,java,restapi,spring,

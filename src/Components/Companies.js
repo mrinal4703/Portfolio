@@ -1,5 +1,5 @@
 import React from 'react'
-import SectionHeading from '../Shared/SectionHeading'
+import SectionHeading1 from '../Shared/SectionHeading1'
 import './../Constants'
 import {internship} from './../assets'
 import {AppText, CompanyImage, Internship} from './../Constants'
@@ -10,21 +10,19 @@ const Companies = () => {
         <div id='companies'>
             {/* <img src={wavecompanies}  className="w-screen absolute z-[-1] top-0" alt='' /> */}
             {/*<img src={wavecompanies} className="w-screen absolute z-[-1] m-0" alt=''/>*/}
-            <div className='p-5'>
+            <div className='md:p-5 xls:p-0 mx-auto'>
                 <div className='flex justify-center pt-2 items-center flex-col'>
                     <div className='flex flex-row  justify-center'>
-                        <img src={internship} className="w-[65px] hover:animate-bounce mx-2" alt=''/>
-                        <SectionHeading firstTitle={AppText.CompaniesI} secondTitle={AppText.WorkedFor} className=''/>
+                        <img src={internship} className="md:w-[65px] xls:w-16 md:h-[65px] xls:h-16 md:mt-0 xls:mt-5 hover:animate-bounce mx-2" alt=''/>
+                        <SectionHeading1 firstTitle={AppText.CompaniesI} secondTitle={AppText.WorkedFor} className=''/>
                     </div>
 
                     <div className='flex flex-col md:flex-row  justify-evenly px-8 md:px-0 mt-8 '>
-                        <div className='grid grid-cols-4 md:grid-cols-4 gap-8  items-center'>
+                        <div className='grid grid-cols-3 md:grid-cols-3 md:gap-8 xls:gap-y-2 xls:gap-x-7  items-center'>
                             {CompanyImage.map((item, index) => (
                                 <div
                                     className='transition ease-in-out delay-100 hover:scale-125 bg-transparent shadow-lg'>
                                     <img src={item.imageUrl} className="w-[150px] m-auto" alt=''/>
-                                    {/* {item.imageUrl} */}
-                                    {/* {item.companydesc} */}
                                 </div>
 
                             ))}

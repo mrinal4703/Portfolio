@@ -10,7 +10,7 @@ module.exports = {
         customBlack: '#000001',
       },
       screens: {
-        'xs': '360px',
+        'xls': '360px',
       },
     },
   },

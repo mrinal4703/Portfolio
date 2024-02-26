@@ -1,16 +1,16 @@
 import React from 'react'
 import {contactme, tele} from '../assets'
 import {AppText} from '../Constants'
-import SectionHeading1 from '../Shared/SectionHeading1'
 // import Footer from "./Footer";
 import {TbMailShare} from "react-icons/tb";
+import SectionHeading2 from "../Shared/SectionHeading2";
 
 function ContactUs() {
     return (
         <div id="contact">
             <div className='relative m-0 overflow-hidden'>
                 <div className='flex flex-row  justify-center '>
-                    <SectionHeading1 firstTitle={AppText.Contact} secondTitle={AppText.Us} className='mb-20'/>
+                    <SectionHeading2 firstTitle={AppText.Contact} secondTitle={AppText.Us} className='mb-20'/>
                     <img src={tele} className="w-[80px] ml-4" alt=''/>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 justify-evenly px-10 md:px-44'>
