@@ -155,7 +155,7 @@ const Skills = () => {
                     <h3 className={'my-4 text-2xl flex md:ml-12 xls:ml-2 text-violet-600 font-bold text-left'}>Courses</h3>
                     <div className='flex flex-col md:flex-row justify-evenly px-8 md:px-0 mb-8 '>
                         <div
-                            className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-sm w-full mx-2 p-2 rounded-lg shadow-lg'>
+                            className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-sm w-full mx-2 p-4 rounded-lg'>
                             {workDetail.map((item, index) => (
                                 <div key={item.id}
                                      className=' w-full transition-all ease-in-out hover:scale-105'>

@@ -52,7 +52,7 @@ import {
     dsa,
     // dsa1,
     // dsa2,
-    rakshak, aws, devcpp, linux, windows
+    rakshak, aws, devcpp, linux, windows, codsoft, oraclefa
 } from "../assets"
 
 import {FiLinkedin, FiInstagram, FiFacebook, FiGithub} from 'react-icons/fi';
@@ -360,13 +360,13 @@ export const portfolio = [
 export const Education = [
     {
         id: 1,
-        pic: core,
-        date: '2018',
-        imageUrl: nhps,
-        text: 'I did my matriculation, both 11th and 12th from NHPS. Had been a student here since my grade 8. Being a Naval Brat, I was in Naval School till grade 7th. Received a gold medal in SpellQuest.',
-        educationName: 'X CBSE',
-        schoolName: 'New Horizon Public School, Panvel',
-        performance: 'Scored 88.8%',
+        pic: jbp,
+        date: '2021-25',
+        imageUrl: mit,
+        text: 'I am pursuing my Btech Degree from this autonomous and affiliated college, which is under SPPU (Savitribai Phule Pune University). I would be completing my Engineering by 2025.',
+        educationName: 'BTech CSE',
+        schoolName: 'MIT Academy of Engineering',
+        performance: 'SY CGPA 9.46',
     },
     {
         id: 2,
@@ -379,14 +379,14 @@ export const Education = [
         performance: 'Scored 84%',
     },
     {
-        id: 3,
-        pic: jbp,
-        date: '2021-25',
-        imageUrl: mit,
-        text: 'I am pursuing my Btech Degree from this autonomous and affiliated college, which is under SPPU (Savitribai Phule Pune University). I would be completing my Engineering by 2025.',
-        educationName: 'BTech CSE',
-        schoolName: 'MIT Academy of Engineering',
-        performance: 'SY CGPA 9.46',
+        id: 1,
+        pic: core,
+        date: '2018',
+        imageUrl: nhps,
+        text: 'I did my matriculation from NHPS. Had been a student here since my grade 8. Being a Naval Brat, I was in Naval School till grade 7th. Received a gold medal in SpellQuest.',
+        educationName: 'X CBSE',
+        schoolName: 'New Horizon Public School, Panvel',
+        performance: 'Scored 88.8%',
     }
 ]
 
@@ -449,11 +449,32 @@ export const ide = [
 ]
 
 export const Internship = [
+    // {
+    //     id: 2,
+    //     imageUrl: oraclefa,
+    //     companydesc: 'MITAOE Entry Pass generating website',
+    //     company: 'MIT Academy of Engineering, Virtual Internship',
+    //     duration: 'July 2023 - Aug 2023'
+    // },
     {
-        id: 1,
+        id: 2,
+        imageUrl: oraclefa,
+        companydesc: 'Foundations Associate Oracle Cloud Infrastructure',
+        company: 'Oracle Certified, Virtual Certification',
+        duration: 'Aug 19, 2023'
+    },
+    {
+        id: 2,
+        imageUrl: codsoft,
+        companydesc: 'Android App Development',
+        company: 'Codsoft, Virtual Internship',
+        duration: 'July 2023 - Aug 2023'
+    },
+    {
+        id: 2,
         imageUrl: teachnook,
         companydesc: 'Basics of Web Development (Full Stack)',
-        company: 'Teachnook, Virtual',
+        company: 'Teachnook, Virtual Internship',
         duration: 'Aug 2022 - Sep 2022'
     }
 ]

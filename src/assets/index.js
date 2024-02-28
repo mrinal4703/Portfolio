@@ -7,7 +7,9 @@ import laptop from './laptop.png'
 import skill from './skill.png'
 import backimage from './backimage.jpg'
 import backimage1 from './backimage1.jpg'
-
+import me1 from './me1.png'
+import codsoft from './codsoft.jpg'
+import oraclefa from './oraclefa.png'
 // import resume from './Mrinal-Gupta-Resume-SWEng.pdf'
 import resume from './Mrinal SWE Resume.pdf'
 import skillpot from './skillpot.png'
@@ -125,9 +127,9 @@ export {
     angular,backendev,frontenddev,appdev,linux,
     typescript,mit,nhps,dav,windows, backimage, backimage1,
     android,mitentry,projekta,puc,foodex,rakshak,
-    gitlab,teachnook,aws,resume,
+    gitlab,teachnook,aws,resume, me1,
     ionic,oracle,bootstrap,mongo,cpp,java,restapi,spring,
-    firebase,contactme,
+    firebase,contactme,codsoft,oraclefa,
     mysql,up,flashmob,calcapp,devcpp,
     react,portfolios,tailwind,waveportfolio,wavecompanies,
     wave,wavehome,wavehome2,wavecontact,waveabout1,waveport2,waveport1,wavecontact1,wavehm1,wavehme1,wavehme2,
