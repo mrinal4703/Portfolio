@@ -81,22 +81,44 @@ const Portfolio = () => {
                         </div>
                     ) : (
                         <div
-                            className="grid grid-cols-2 items-center content-center md:grid-cols-3 lg:grid-cols-3 md:px-24 lg:px-48 p-4">
+                            className="grid items-center content-center md:grid-cols-3 xls:grid-cols-1 md:px-24 lg:px-48 p-4">
                             {portfolioList.map((item, index) => (
-                                <div key={index}
-                                     className="p-2 flex flex-col m-2 rounded-lg bg-purple-100 transition-all ease-in-out group hover:scale-105 shadow-lg border-2 border-purple-600">
-                                    <a href={item.link} target="_blank" rel="noopener noreferrer"
-                                       className="text-[12px] text-purple-600 text-center no-underline hover:text-purple-800">
-                                        <div className="flex items-center justify-center">
-                                            <img src={item.imageUrl} className="h-[180px] object-cover rounded-lg"
-                                                 alt=""/>
-                                        </div>
-                                        <h1 className="text-[14px] group-hover:scale-110 mt-2 text-center font-bold">
-                                            {item.title}
-                                        </h1>
-                                        <h1 className="text-[12px] text-gray-500 text-center px-6 pb-3">{item.desc}</h1>
-                                    </a>
+                                <div>
+                                    <div key={index} className="group relative m-3 xls:hidden md:block rounded-lg">
+                                        <a href={item.link} target="_blank" rel="noopener noreferrer" className="block">
+                                            <img
+                                                src={item.imageUrl}
+                                                className="md:h-[200px] xls:h-[180px] object-cover transition-opacity duration-400 group-hover:opacity-50 rounded-lg"
+                                                alt=""
+                                            />
+                                            <div
+                                                className="p-2 absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-80 group-hover:bg-gray-950 transition-opacity duration-400 rounded-lg">
+                                                <h1 className="text-[14px] w-full group-hover:scale-110 mt-2 text-center font-bold text-white">
+                                                    {item.title}
+                                                </h1>
+                                                <h1 className="text-[12px] ml-4 text-gray-300 text-center px-6 pb-3">{item.desc}</h1>
+                                            </div>
+                                        </a>
+                                    </div>
+
+
+                                    <div key={index}
+                                         className="pt-1 flex md:hidden xls:block flex-col m-2 rounded-lg bg-purple-100 transition-all ease-in-out group hover:scale-105 shadow-lg border-2 border-purple-600">
+                                        <a href={item.link} target="_blank" rel="noopener noreferrer"
+                                           className="text-[12px] text-purple-600 text-center no-underline hover:text-purple-800">
+                                            <div className="flex items-center justify-center">
+                                                <img src={item.imageUrl} className="h-[180px] object-cover rounded-lg"
+                                                     alt=""/>
+                                            </div>
+                                            <h1 className="text-[14px] group-hover:scale-110 mt-1 text-center font-bold">
+                                                {item.title}
+                                            </h1>
+                                            <h1 className="text-[12px] text-gray-500 text-center px-6 pb-1">{item.desc}</h1>
+                                        </a>
+                                    </div>
                                 </div>
+
+
                             ))}
                         </div>
                     )}

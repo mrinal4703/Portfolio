@@ -332,6 +332,14 @@ export const portfolio = [
         link: "https://github.com/mrinal4703/Foodex-1"
     },
     {
+        id: 6,
+        title: 'Rakshak',
+        type: 'website',
+        desc: "Rakshak: Real-time disaster hub, empowering communities for swift response.",
+        imageUrl: rakshak,
+        link: "https://github.com/TeamYogya/Rakshak-Web"
+    },
+    {
         id: 4,
         title: 'FlashMob',
         type: 'mobile',
@@ -346,15 +354,7 @@ export const portfolio = [
         desc: "Simplify calculations with our user-friendly calculator app for quick and accurate results. CalcApp",
         imageUrl: calcapp,
         link: "https://github.com/mrinal4703/CalcApp"
-    },
-    {
-        id: 6,
-        title: 'Rakshak',
-        type: 'website',
-        desc: "Rakshak: Real-time disaster hub, empowering communities for swift response.",
-        imageUrl: rakshak,
-        link: "https://github.com/TeamYogya/Rakshak-Web"
-    },
+    }
 ]
 
 export const Education = [
