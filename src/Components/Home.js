@@ -107,7 +107,7 @@ const Home = () => {
                                 <div className={'md:flex md:flex-row-reverse xls:flex xls:flex-col'}>
                                     <div className='flex justify-center'>
                                         <img src={me}
-                                             className="w-full lg:w-[380px] md:mr-0 xls:mr-10 md:w-[320px] lg:h-[380px] xls:h-56 xls:w-[230px] md:relative md:mt-[-100px] xls:my-auto z-10 bg-inherit transition-all duration-300 hover:scale-110"
+                                             className="w-full lg:w-[380px] md:mr-0 xls:mr-10 md:w-[320px] lg:h-[380px] xls:h-56 xls:w-[230px] md:relative md:mt-[-100px] xls:my-auto z-10 bg-inherit transition-all duration-300 md:hover:scale-110"
                                              alt=''/>
                                     </div>
 
