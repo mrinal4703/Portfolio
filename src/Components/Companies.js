@@ -79,7 +79,8 @@ const Companies = () => {
 
                     <div
                         className={`overflow-hidden ${contentLoaded ? 'transition-all duration-[0.8s] opacity-100 translate-x-0' : 'opacity-0 -translate-x-1/4'}`}>
-                        <div className='justify-evenly items-center grid grid-cols-1 md:grid-cols-3 gap-4 m-4'>
+                        {/*<div className='justify-evenly items-center grid grid-cols-1 md:grid-cols-3 gap-4 m-4'>*/}
+                        <div className='justify-evenly items-center grid grid-cols-1 md:grid-cols-2 gap-4 m-4'>
                             {Internship.map((item, index) => (
                                 <div key={index}
                                      className='card items-center justify-center transition-all ease-in-out hover:scale-105 bg-violet-200 md:p-2 xls:p-3 align-middle rounded-lg group hover:bg-violet-800 shadow-md'>

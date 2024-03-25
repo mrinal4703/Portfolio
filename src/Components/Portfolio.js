@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {AppText, portfolio} from '../Constants';
 import SectionHeading1 from '../Shared/SectionHeading1';
 import {portfolios} from './../assets/index';
-import {FiSmartphone, FiMonitor, FiClock} from 'react-icons/fi';
+import {FiClock} from 'react-icons/fi';
 // import Footer from "./Footer";
 
 const Portfolio = () => {
@@ -14,6 +14,7 @@ const Portfolio = () => {
         setPortfolioList(portfolio);
         setPortfolioListOrg(portfolio);
     }, []);
+    console.log(portfolioListOrg);
 
   const [contentLoaded, setContentLoaded] = useState(false);
 
@@ -36,14 +37,14 @@ const Portfolio = () => {
     removeImageTransition();
   }, []);
 
-    const filterPortfolio = (type) => {
-        if (type === 'All') {
-            setPortfolioList(portfolioListOrg);
-        } else {
-            const result = portfolioListOrg.filter((item) => item.type === type);
-            setPortfolioList(result);
-        }
-    };
+    // const filterPortfolio = (type) => {
+    //     if (type === 'All') {
+    //         setPortfolioList(portfolioListOrg);
+    //     } else {
+    //         const result = portfolioListOrg.filter((item) => item.type === type);
+    //         setPortfolioList(result);
+    //     }
+    // };
 
     return (
         <div id='portfolio' className="relative m-0 overflow-hidden">
@@ -57,20 +58,20 @@ const Portfolio = () => {
                              alt=""/>
                     </div>
                     <div className="flex flex-row justify-evenly gap-2 px-4 md:mt-0 xls:mt-5 md:px-72">
-                        <button onClick={() => filterPortfolio('All')}
-                                className="border-purple-600 border-2 text-purple-600 focus:text-white active:bg-purple-500 p-1 px-4 rounded-md focus:ring-violet-300 focus:bg-purple-600 focus:ring text-3xl">
-                            All
-                        </button>
+                        {/*<button onClick={() => filterPortfolio('All')}*/}
+                        {/*        className="border-purple-600 border-2 text-purple-600 focus:text-white active:bg-purple-500 p-1 px-4 rounded-md focus:ring-violet-300 focus:bg-purple-600 focus:ring text-3xl">*/}
+                        {/*    All*/}
+                        {/*</button>*/}
 
-                        <button onClick={() => filterPortfolio('website')}
-                                className="border-purple-600 border-2 text-purple-600 focus:text-white active:bg-purple-500 p-1 px-4 rounded-md focus:ring-violet-300 focus:bg-purple-600 focus:ring">
-                            <FiMonitor className="text-3xl"/>
-                        </button>
+                        {/*<button onClick={() => filterPortfolio('website')}*/}
+                        {/*        className="border-purple-600 border-2 text-purple-600 focus:text-white active:bg-purple-500 p-1 px-4 rounded-md focus:ring-violet-300 focus:bg-purple-600 focus:ring">*/}
+                        {/*    <FiMonitor className="text-3xl"/>*/}
+                        {/*</button>*/}
 
-                        <button onClick={() => filterPortfolio('mobile')}
-                                className="border-purple-600 border-2 text-purple-600 focus:text-white active:bg-purple-500 p-1 px-4 rounded-md focus:ring-violet-300 focus:bg-purple-600 focus:ring">
-                            <FiSmartphone className="text-3xl"/>
-                        </button>
+                        {/*<button onClick={() => filterPortfolio('mobile')}*/}
+                        {/*        className="border-purple-600 border-2 text-purple-600 focus:text-white active:bg-purple-500 p-1 px-4 rounded-md focus:ring-violet-300 focus:bg-purple-600 focus:ring">*/}
+                        {/*    <FiSmartphone className="text-3xl"/>*/}
+                        {/*</button>*/}
                     </div>
                     {portfolioList.length === 0 ? (
                         <div className="flex justify-center items-center h-[300px]">

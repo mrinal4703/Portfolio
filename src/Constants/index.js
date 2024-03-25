@@ -1,5 +1,5 @@
 import {
-    android,
+    // android,
     tailwind,
     puc,
     mitentry,
@@ -26,12 +26,12 @@ import {
     nhps,
     dav,
     core,
-    flashmob,
-    calcapp,
+    // flashmob,
+    // calcapp,
     nodejs,
     backendev,
     frontenddev,
-    appdev,
+    // appdev,
     spring,
     restapi,
     java,
@@ -47,12 +47,14 @@ import {
     netbeans,
     intellije,
     eclipse,
-    androidstud,
+    // androidstud,
     // dsa0,
     dsa,
     // dsa1,
     // dsa2,
-    rakshak, aws, devcpp, linux, windows, codsoft, oraclefa
+    rakshak, aws, devcpp, linux, windows,
+    // codsoft,
+    oraclefa
 } from "../assets"
 
 import {FiLinkedin, FiInstagram, FiFacebook, FiGithub} from 'react-icons/fi';
@@ -100,12 +102,12 @@ export const aboutSection = [
         title: 'Competitive Porgrammer',
         desc: 'DSA programming enthusiast, in C++ language'
     },
-    {
-        id: 4,
-        image: appdev,
-        title: 'Android App Developer',
-        desc: 'Amateur android app developer using Android Studio'
-    }
+    // {
+    //     id: 4,
+    //     image: appdev,
+    //     title: 'Android App Developer',
+    //     desc: 'Amateur android app developer using Android Studio'
+    // }
 ]
 
 export const otherskillsList = [
@@ -204,11 +206,11 @@ export const skillsList = [
         icon: restapi,
         text: 'RestAPI'
     },
-    {
-        id: 1,
-        icon: android,
-        text: 'Android'
-    },
+    // {
+    //     id: 1,
+    //     icon: android,
+    //     text: 'Android'
+    // },
     {
         id: 1,
         icon: nodejs,
@@ -339,22 +341,22 @@ export const portfolio = [
         imageUrl: rakshak,
         link: "https://github.com/TeamYogya/Rakshak-Web"
     },
-    {
-        id: 4,
-        title: 'FlashMob',
-        type: 'mobile',
-        desc: "Empower your darkness with our user-friendly flashlight app for instant brightness. FlashMob",
-        imageUrl: flashmob,
-        link: "https://github.com/mrinal4703/FlashMob"
-    },
-    {
-        id: 5,
-        title: 'CalcApp',
-        type: 'mobile',
-        desc: "Simplify calculations with our user-friendly calculator app for quick and accurate results. CalcApp",
-        imageUrl: calcapp,
-        link: "https://github.com/mrinal4703/CalcApp"
-    }
+    // {
+    //     id: 4,
+    //     title: 'FlashMob',
+    //     type: 'mobile',
+    //     desc: "Empower your darkness with our user-friendly flashlight app for instant brightness. FlashMob",
+    //     imageUrl: flashmob,
+    //     link: "https://github.com/mrinal4703/FlashMob"
+    // },
+    // {
+    //     id: 5,
+    //     title: 'CalcApp',
+    //     type: 'mobile',
+    //     desc: "Simplify calculations with our user-friendly calculator app for quick and accurate results. CalcApp",
+    //     imageUrl: calcapp,
+    //     link: "https://github.com/mrinal4703/CalcApp"
+    // }
 ]
 
 export const Education = [
@@ -411,11 +413,11 @@ export const ide = [
         icon: eclipse,
         text: 'Eclipse'
     },
-    {
-        id: 1,
-        icon: androidstud,
-        text: 'Android Studio'
-    },
+    // {
+    //     id: 1,
+    //     icon: androidstud,
+    //     text: 'Android Studio'
+    // },
     {
         id: 1,
         icon: devcpp,
@@ -463,13 +465,13 @@ export const Internship = [
         company: 'Oracle Certified, Virtual Certification',
         duration: 'Aug 19, 2023'
     },
-    {
-        id: 2,
-        imageUrl: codsoft,
-        companydesc: 'Android App Development',
-        company: 'Codsoft, Virtual Internship',
-        duration: 'July 2023 - Aug 2023'
-    },
+    // {
+    //     id: 2,
+    //     imageUrl: codsoft,
+    //     companydesc: 'Android App Development',
+    //     company: 'Codsoft, Virtual Internship',
+    //     duration: 'July 2023 - Aug 2023'
+    // },
     {
         id: 2,
         imageUrl: teachnook,
