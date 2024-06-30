@@ -3,10 +3,13 @@ import '../Constants'
 import {aboutSection, AppText} from '../Constants'
 import '../assets'
 import './Home.css'
-import {me, wavehme1, wavehme2} from '../assets'
+import {me,
+    // wavehme1,
+    // wavehme2
+} from '../assets'
 import Typewriter from 'typewriter-effect';
 import {FiLinkedin, FiInstagram, FiMail, FiGithub, FiFacebook} from "react-icons/fi";
-import {useState, useEffect} from 'react';
+// import {useState, useEffect} from 'react';
 import {Education} from '../Constants';
 import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
 import 'react-vertical-timeline-component/style.min.css';

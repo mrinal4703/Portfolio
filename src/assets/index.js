@@ -10,7 +10,6 @@ import backimage1 from './backimage1.jpg'
 import me1 from './me1.png'
 import codsoft from './codsoft.jpg'
 import oraclefa from './oraclefa.png'
-// import resume from './Mrinal-Gupta-Resume-SWEng.pdf'
 import resume from './MrinalGupta-Resume.pdf'
 import skillpot from './skillpot.png'
 import skillpot1 from './skillpot1.png'
@@ -139,5 +138,5 @@ export {
     mysql,up,flashmob,calcapp,devcpp,
     react,portfolios,tailwind,waveportfolio,wavecompanies,
     wave,wavehome,wavehome2,wavecontact,waveabout1,waveport2,waveport1,wavecontact1,wavehm1,wavehme1,wavehme2,
-    robo, dsa, dsa0, dsa1, dsa2, pycharm, ubuntu, jupyter,cicd,devops,gate,edunet,seemsan,suvidha
+    robo, dsa, dsa0, dsa1, dsa2, pycharm, ubuntu, jupyter,cicd,devops,gate,edunet,seemsan,suvidha,me2
 }

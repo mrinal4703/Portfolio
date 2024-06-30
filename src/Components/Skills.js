@@ -1,18 +1,19 @@
-import React, {useEffect, useState} from 'react';
+// import React, {useEffect, useState} from 'react';
+import React from 'react';
 import '../assets';
 import './Skill.css';
 import {
-    internship,
+    // internship,
     skillpot1
 } from '../assets';
 import '../Constants';
 import {
     AppText,
     skillsList,
-    workDetail,
+    // workDetail,
     ide, CompanyImage, Internship
 } from '../Constants';
-import SectionHeading1 from "../Shared/SectionHeading1";
+// import SectionHeading1 from "../Shared/SectionHeading1";
 // import Typewriter from 'typewriter-effect';
 // import Footer from "./Footer";
 
@@ -30,8 +31,6 @@ const Skills = () => {
                     <h1 className='md:text-[40px] xls:text-[28px] font-bold'><span
                         className='text-white'>{AppText.Skills}</span><span
                         className='text-purple-600'>{AppText.Experties}</span></h1>
-                    {/*<h1 className='lg:hidden md:hidden xls:text-[28px] font-bold'><span className='text-white'>{AppText.Skills}</span><span*/}
-                    {/*    className='text-purple-600'>{AppText.Experties}</span></h1>*/}
                 </div>
 
                 <div className='flex flex-col md:flex-row pt-4 ml-16 px-8 md:px-0 items-start'>
@@ -141,7 +140,7 @@ const Skills = () => {
                             {CompanyImage.map((item, index) => (
                                 <div className="my-4 justify-evenly">
                                     <div className={'flex flex-wrap '}>
-                                        <img src={item.imageUrl} className={'h-8 w-8 rounded-full mx-3'}/>
+                                        <img src={item.imageUrl} className={'h-8 w-8 rounded-full mx-3'} alt=''/>
                                         <cite className="text-xl font-bold">{item.company}</cite>
                                     </div>
                                     <p className="mt-2">{item.description}</p>

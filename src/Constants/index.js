@@ -28,8 +28,6 @@ import {
     core,
     // flashmob,
     // calcapp,
-    nodejs,
-    backendev,
     frontenddev,
     // appdev,
     spring,
