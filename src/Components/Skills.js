@@ -60,7 +60,7 @@ const Skills = () => {
                                 <div
                                     key={`skills-${index}`}
                                     // className='relative md:w-[70px] xls:w-[55px] transition ease-in-out delay-10 hover:scale-110 bg-gradient-to-br from-purple-900 to-purple-700 bg-black shadow-lg md:p-3 xls:p-2 rounded-full'
-                                    className='relative md:w-[85px] xls:w-[75px] transition ease-in-out p-3 rounded-full'
+                                    className='relative md:w-[85px] xls:w-[60px] transition ease-in-out p-3 rounded-full'
                                     onMouseEnter={() => {
                                         const textElement = document.getElementById(`skills-text-${index}`);
                                         if (textElement) {
