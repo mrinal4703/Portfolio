@@ -22,17 +22,17 @@ const NavBar = () => {
       <div>
         <ul className="hidden text-white md:flex">
           <li className="menuItem hover:scale-110">
-            <Link to="/" onClick={handleMenuItemClick}>Home</Link>
+            <Link to="/" onClick={handleMenuItemClick}>About Me</Link>
           </li>
           <li className="menuItem hover:scale-110">
-            <Link to="/skills" onClick={handleMenuItemClick}>Skills and Courses</Link>
+            <Link to="/skills" onClick={handleMenuItemClick}>Skills and Achievements</Link>
           </li>
           <li className="menuItem hover:scale-110">
             <Link to="/portfolio" onClick={handleMenuItemClick}>Portfolio</Link>
           </li>
-          <li className="menuItem hover:scale-110">
-            <Link to="/companies" onClick={handleMenuItemClick}>Achievements</Link>
-          </li>
+          {/*<li className="menuItem hover:scale-110">*/}
+          {/*  <Link to="/companies" onClick={handleMenuItemClick}>Achievements</Link>*/}
+          {/*</li>*/}
           <li className="menuItem hover:scale-110">
             <Link to="/contact" onClick={handleMenuItemClick}>Contact Me</Link>
           </li>
@@ -57,17 +57,17 @@ const NavBar = () => {
           {toggle ? (
             <ul className="md:hidden text-center absolute text-base flex mt-8 z-20 text-black flex-col bg-gray-200 p-1 rounded-3xl delay-300 transition-all">
               <li className="menuItem p-3 hover:scale-110" onClick={handleMenuItemClick}>
-                <Link to="/">Home</Link>
+                <Link to="/">About Me</Link>
               </li>
               <li className="menuItem p-3 hover:scale-110" onClick={handleMenuItemClick}>
-                <Link to="/skills">Skills and Courses</Link>
+                <Link to="/skills">Skills and Achievements</Link>
               </li>
               <li className="menuItem p-3 hover:scale-110" onClick={handleMenuItemClick}>
                 <Link to="/portfolio">Portfolio</Link>
               </li>
-              <li className="menuItem p-3 hover:scale-110" onClick={handleMenuItemClick}>
-                <Link to="/companies">Achievements</Link>
-              </li>
+              {/*<li className="menuItem p-3 hover:scale-110" onClick={handleMenuItemClick}>*/}
+              {/*  <Link to="/companies">Achievements</Link>*/}
+              {/*</li>*/}
               <li className="menuItem p-3 hover:scale-110" onClick={handleMenuItemClick}>
                 <Link to="/contact">Contact Me</Link>
               </li>

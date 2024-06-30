@@ -1,3 +1,6 @@
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-layouts/styles/material.css";
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -129,3 +132,4 @@ body::-webkit-scrollbar-track-piece:end {
 .scrollToTopButton:hover {
   opacity: 0.8;
 }
+

@@ -15,6 +15,7 @@ import resume from './MrinalGupta-Resume.pdf'
 import skillpot from './skillpot.png'
 import skillpot1 from './skillpot1.png'
 import me from './me.png'
+import me2 from './mee.jpg'
 import aws from './aws.png'
 import dsa0 from './dsa0.png'
 import dsa from './dsa.png'
@@ -116,7 +117,12 @@ import netbeans from './netbeans.png'
 import intellije from './intellije.png'
 import eclipse from './eclipse.png'
 import androidstud from './androidstud.png'
-
+import cicd from './cicd.png'
+import devops from './devops.png'
+import gate from './gate.jpeg'
+import edunet from './edunet.png'
+import suvidha from './suvidhaa.jpg'
+import seemsan from './seemsan.jpg'
 export {
     calc, compjs, fileshare, jbp, modernjs, qr, rbc, pyoop, pystud, supervised,
     logo, mylogo, mylogo1, cognizantLogo,wellsLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
@@ -133,5 +139,5 @@ export {
     mysql,up,flashmob,calcapp,devcpp,
     react,portfolios,tailwind,waveportfolio,wavecompanies,
     wave,wavehome,wavehome2,wavecontact,waveabout1,waveport2,waveport1,wavecontact1,wavehm1,wavehme1,wavehme2,
-    robo, dsa, dsa0, dsa1, dsa2, pycharm, ubuntu, jupyter
+    robo, dsa, dsa0, dsa1, dsa2, pycharm, ubuntu, jupyter,cicd,devops,gate,edunet,seemsan,suvidha
 }

@@ -54,7 +54,7 @@ import {
     // dsa2,
     rakshak, aws, devcpp, linux, windows,
     // codsoft,
-    oraclefa
+    oraclefa, cicd, devops, gate, seemsan, suvidha
 } from "../assets"
 
 import {FiLinkedin, FiInstagram, FiFacebook, FiGithub} from 'react-icons/fi';
@@ -63,17 +63,20 @@ export const AppText = {
     hello: 'Hey there,',
     Iam: 'I am',
     MrinalGupta: 'Mrinal Gupta',
+    homeDescription:'Enthusiastic Full Stack Developer and Cloud Enthusiast skilled in Web, and C++ competitive programming. Proficient in CI/CD, React.js, Tailwind CSS, Node.js, JSON, and creating dynamic interfaces with JSX. Eager learner, constantly seeking growth and challenges in the tech industry.',
 //    aboutMeDescripion:'I am Full stack developer, expert in Front-end  and Back-end Development, and a competitive programmer in C++',
     aboutMeDescripion: 'Enthusiastic Computer Engineering student with a stellar 9.46 CGPA, specializing in full-stack development. Expert in Front-end and Back-end Development, proficient in React.js, Node.js, MySQL, and Java, with a knack for innovative problem-solving in C++. Noteworthy projects include automating PUC certificate processing and creating a campus access system. Skilled in Python, project management, and disaster management tools like Rakshak for crisis response. ',
     aboutMeDescripion1: 'Eager to embrace challenges, I thrive on learning and seek to contribute impactful solutions to tech. Open to collaborations and networking opportunities to further explore the ever-evolving realms of technology. Let\'s connect and delve into the dynamic world of innovation and growth! ',
-    Skills: 'Skills, train',
-    Experties: 'ings & Courses',
+    // Skills: 'Skills, train',
+    Skills: 'Skills, Achieve',
+    // Experties: 'ings & Courses',
+    Experties: 'ments, & Internships',
     TechSkills: 'Technical Skills: ',
     OtherSkills: 'Other Skills: ',
-    BackendDeveloper: 'Backend Developer',
-    FrontedDeveloper: 'Frontend Developer',
-    AndroidDeveloper: 'Android Developer',
+    FullStackDeveloper: 'Full Stack Developer',
+    CloudEnthusiast: 'Cloud Enthusiast',
     CompetitiveProgrammer: 'Competitive Programmer',
+    DevOps: 'DevOps Enthusiast',
     Portfolio: 'Portfolio',
     Creative: 'My Creative ',
     CompaniesI: 'Internships, Badges ',
@@ -87,17 +90,23 @@ export const aboutSection = [
     {
         id: 1,
         image: frontenddev,
-        title: 'Frontend Developer',
-        desc: 'Expert in UI/UX designing using Spring MVC Framework, Spring Boot, Tailwind CSS, ReactJS'
+        title: 'Full Stack Developer',
+        desc: 'Expert in Full Stack Development using Spring MVC Framework, Spring Boot, Tailwind CSS, ReactJS'
     },
     {
         id: 2,
-        image: backendev,
-        title: 'Back-end Developer',
-        desc: 'Expert in back end developing, using MySQL, SQL, django'
+        image: cicd,
+        title: 'Cloud Enthusiast',
+        desc: 'Expert in implementation of cloud services'
     },
     {
         id: 3,
+        image: devops,
+        title: 'DevOps Enthusiast',
+        desc: 'Development and Deployment experienced through cloud'
+    },
+    {
+        id: 4,
         image: dsa,
         title: 'Competitive Porgrammer',
         desc: 'DSA programming enthusiast, in C++ language'
@@ -211,11 +220,11 @@ export const skillsList = [
     //     icon: android,
     //     text: 'Android'
     // },
-    {
-        id: 1,
-        icon: nodejs,
-        text: 'NodeJS'
-    },
+    // {
+    //     id: 1,
+    //     icon: nodejs,
+    //     text: 'NodeJS'
+    // },
 
 ]
 
@@ -294,20 +303,20 @@ export const workDetail = [
 
 export const portfolio = [
     {
-        id: 1,
-        title: 'Foodex Food Delivery Platform',
+        id: 4,
+        title: 'Suvidhaa',
         type: 'website',
-        desc: "Delicious food delivered fast to your doorstep. Easy ordering, wide menu, and quick service.",
-        imageUrl: foodex,
-        link: "https://github.com/mrinal4703/Foodex"
+        desc: "A health care management portal for seamless medical related procedures with AI help.",
+        imageUrl: suvidha,
+        link: "https://github.com/mrinal4703/Suvidhaa"
     },
     {
-        id: 4,
-        title: 'Projekta',
+        id: 5,
+        title: 'Seemsan',
         type: 'website',
-        desc: "Efficient project management tool for seamless team collaboration and productivity.",
-        imageUrl: projekta,
-        link: "https://github.com/mrinal4703/Projekta"
+        desc: "Proficient chemical management website for tracking, ordering, keeping in inventory, and assessing chemicals in realtime",
+        imageUrl: seemsan,
+        link: "https://github.com/mrinal4703/ChemicalManagement"
     },
     {
         id: 2,
@@ -318,12 +327,12 @@ export const portfolio = [
         link: "https://github.com/mrinal4703/PUC-OnClick"
     },
     {
-        id: 3,
-        title: 'MITAOE Visiting Pass',
+        id: 6,
+        title: 'Rakshak',
         type: 'website',
-        desc: "Get your MIT Academy of Engineering visiting pass for easy and convenient campus access.",
-        imageUrl: mitentry,
-        link: "https://github.com/mrinal4703/MIT_Entry_Pass"
+        desc: "Rakshak: Real-time disaster hub, empowering communities for swift response.",
+        imageUrl: rakshak,
+        link: "https://github.com/TeamYogya/Rakshak-Web"
     },
     {
         id: 3,
@@ -334,29 +343,29 @@ export const portfolio = [
         link: "https://github.com/mrinal4703/Foodex-1"
     },
     {
-        id: 6,
-        title: 'Rakshak',
+        id: 4,
+        title: 'Projekta',
         type: 'website',
-        desc: "Rakshak: Real-time disaster hub, empowering communities for swift response.",
-        imageUrl: rakshak,
-        link: "https://github.com/TeamYogya/Rakshak-Web"
+        desc: "Efficient project management tool for seamless team collaboration and productivity.",
+        imageUrl: projekta,
+        link: "https://github.com/mrinal4703/Projekta"
     },
-    // {
-    //     id: 4,
-    //     title: 'FlashMob',
-    //     type: 'mobile',
-    //     desc: "Empower your darkness with our user-friendly flashlight app for instant brightness. FlashMob",
-    //     imageUrl: flashmob,
-    //     link: "https://github.com/mrinal4703/FlashMob"
-    // },
-    // {
-    //     id: 5,
-    //     title: 'CalcApp',
-    //     type: 'mobile',
-    //     desc: "Simplify calculations with our user-friendly calculator app for quick and accurate results. CalcApp",
-    //     imageUrl: calcapp,
-    //     link: "https://github.com/mrinal4703/CalcApp"
-    // }
+    {
+        id: 1,
+        title: 'Foodex Food Delivery Platform',
+        type: 'website',
+        desc: "Delicious food delivered fast to your doorstep. Easy ordering, wide menu, and quick service.",
+        imageUrl: foodex,
+        link: "https://github.com/mrinal4703/Foodex"
+    },
+    {
+        id: 3,
+        title: 'MITAOE Visiting Pass',
+        type: 'website',
+        desc: "Get your MIT Academy of Engineering visiting pass for easy and convenient campus access.",
+        imageUrl: mitentry,
+        link: "https://github.com/mrinal4703/MIT_Entry_Pass"
+    },
 ]
 
 export const Education = [
@@ -368,7 +377,7 @@ export const Education = [
         text: 'I am pursuing my Btech Degree from this autonomous and affiliated college, which is under SPPU (Savitribai Phule Pune University). I would be completing my Engineering by 2025.',
         educationName: 'BTech CSE',
         schoolName: 'MIT Academy of Engineering',
-        performance: 'SY CGPA 9.46',
+        performance: 'TY CGPA 9.48',
     },
     {
         id: 2,
@@ -451,13 +460,13 @@ export const ide = [
 ]
 
 export const Internship = [
-    // {
-    //     id: 2,
-    //     imageUrl: oraclefa,
-    //     companydesc: 'MITAOE Entry Pass generating website',
-    //     company: 'MIT Academy of Engineering, Virtual Internship',
-    //     duration: 'July 2023 - Aug 2023'
-    // },
+    {
+        id: 1,
+        imageUrl: oraclefa,
+        companydesc: 'Internship in CLoud Computing',
+        company: 'Uniconverge Technologies Pvt. Ltd.',
+        duration: 'May 2024 - June 2024'
+    },
     {
         id: 2,
         imageUrl: oraclefa,
@@ -465,13 +474,6 @@ export const Internship = [
         company: 'Oracle Certified, Virtual Certification',
         duration: 'Aug 19, 2023'
     },
-    // {
-    //     id: 2,
-    //     imageUrl: codsoft,
-    //     companydesc: 'Android App Development',
-    //     company: 'Codsoft, Virtual Internship',
-    //     duration: 'July 2023 - Aug 2023'
-    // },
     {
         id: 2,
         imageUrl: teachnook,
@@ -483,68 +485,45 @@ export const Internship = [
 
 export const CompanyImage = [
     {
-        id: 3,
-        imageUrl: 'https://images.credly.com/size/680x680/images/4f514a93-8f7a-424c-aeca-2e8f79612bc5/image.png',
-        companydesc: 'AWS Academy Graduate - AWS Academy Data Engineering',
-        company: 'AWS Academy Graduate',
-        duration: 'February 10, 2024'
-    },
-    {
-        id: 3,
-        imageUrl: 'https://images.credly.com/size/680x680/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png',
-        companydesc: 'Microsoft Certified: Azure Fundamentals',
-        company: 'Microsoft',
-        duration: 'December 30, 2023'
-    },
-    {
-        id: 3,
-        imageUrl: 'https://images.credly.com/size/680x680/images/0a6d331e-8abf-4272-a949-33f754569a76/CCNAENSA__1_.png',
-        companydesc: 'CCNA: Enterprise Networking, Security, and Automation',
-        company: 'Cisco',
-        duration: 'November 16, 2023'
-    },
-    {
-        id: 3,
-        imageUrl: 'https://images.credly.com/size/220x220/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png',
-        companydesc: 'CCNA: Switching, Routing, and Wireless Essentials',
-        company: 'Cisco',
-        duration: 'November 02, 2023'
-    },
-    {
-        id: 3,
-        imageUrl: 'https://images.credly.com/size/680x680/images/2f7b0627-48a0-4894-8d46-3245bdfe0463/image.png',
-        companydesc: 'AWS Academy Graduate - AWS Academy Cloud Architecting',
-        company: 'AWS Academy Graduate',
-        duration: 'October 29, 2023'
-    },
-    {
-        id: 3,
-        imageUrl: 'https://images.credly.com/size/220x220/images/73e4a58b-a8ef-41a3-a7db-9183dd269882/image.png',
-        companydesc: 'AWS Academy Graduate - AWS Academy Cloud Foundations',
-        company: 'AWS Academy Graduate',
-        duration: 'October 08, 2023'
-    },
-    {
-        id: 3,
-        imageUrl: 'https://images.credly.com/size/220x220/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png',
-        companydesc: 'CCNA: Introduction to Networks',
-        company: 'Cisco',
-        duration: 'October 01, 2023'
+        id: 5,
+        imageUrl: gate,
+        companydesc: 'GATE 2024',
+        company: 'Gate',
+        duration: 'February 10, 2024',
+        description: 'Qualified GATE 2024'
     },
     {
         id: 2,
-        imageUrl: 'https://images.credly.com/size/680x680/images/53f37f83-04a1-4935-9b1e-21a99cc6e1b2/CyberOpsAssoc.png',
-        companydesc: 'CyberOps Associate',
-        company: 'Cisco',
-        duration: 'January 30, 2023',
+        imageUrl: 'https://images.credly.com/size/680x680/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png',
+        companydesc: 'Microsoft Certified: Azure Fundamentals',
+        company: 'Microsoft',
+        duration: 'December 30, 2023',
+        description: 'Global certification AZ-900'
     },
-    {
-        id: 1,
-        imageUrl: 'https://images.credly.com/size/680x680/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png',
-        companydesc: 'Introduction to Cyber Security',
-        company: 'Cisco',
-        duration: 'November 30, 2022',
-    }
+    // {
+    //     id: 1,
+    //     imageUrl: 'https://images.credly.com/size/680x680/images/4f514a93-8f7a-424c-aeca-2e8f79612bc5/image.png',
+    //     companydesc: 'AWS Academy Graduate - AWS Academy Data Engineering',
+    //     company: 'AWS Academy Graduate',
+    //     duration: 'February 10, 2024',
+    //     description: ''
+    // },
+    // {
+    //     id: 3,
+    //     imageUrl: 'https://images.credly.com/size/680x680/images/2f7b0627-48a0-4894-8d46-3245bdfe0463/image.png',
+    //     companydesc: 'AWS Academy Graduate - AWS Academy Cloud Architecting',
+    //     company: 'AWS Academy Graduate',
+    //     duration: 'October 29, 2023',
+    //     description: ''
+    // },
+    // {
+    //     id: 4,
+    //     imageUrl: 'https://images.credly.com/size/220x220/images/73e4a58b-a8ef-41a3-a7db-9183dd269882/image.png',
+    //     companydesc: 'AWS Academy Graduate - AWS Academy Cloud Foundations',
+    //     company: 'AWS Academy Graduate',
+    //     duration: 'October 08, 2023',
+    //     description: ''
+    // }
 ]
 
 export const socialNetwork = [
