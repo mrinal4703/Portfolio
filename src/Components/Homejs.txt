@@ -20,7 +20,7 @@ const Home = () => {
         <div id='home'>
             <div className="relative m-0 overflow-hidden">
                 <div
-                    className='flex lg:p-[20px] xls:p-[15px] lg:px-20 md:px-20 justify-between z-[10] lg:flex-row md:flex-row xls:flex-row'>
+                    className='flex lg:p-[20px] xls:p-[15px] lg:px-20 md:px-20 justify-between z-[10] lg:flex-row md:flex-col xls:flex-row'>
                     <div className='flex w-full flex-row bg-transparent justify-end'>
                         <div className='flex w-full flex-col bg-transparent items-start content-end'>
 
@@ -44,7 +44,7 @@ const Home = () => {
                             <div className={'md:flex md:flex-row-reverse xls:flex xls:flex-col'}>
                                 <div className='flex justify-center'>
                                     <img src={me}
-                                         className="w-full  md:mr-0 xls:mr-10 md:w-[320px] lg:w-[380px] lg:h-[380px] md:h-[320px] xls:h-56 xls:w-[230px] md:relative md:mt-[-100px] xls:my-auto z-10 bg-inherit transition-all duration-300"
+                                         className="w-full lg:w-[380px] md:mr-0 xls:mr-10 md:w-[320px] lg:h-[380px] xls:h-56 xls:w-[230px] md:relative md:mt-[-100px] xls:my-auto z-10 bg-inherit transition-all duration-300"
                                          alt=''/>
                                     {/*<img src={me2}*/}
                                     {/*     className="lg:w-[360px] lg:ml-10 md:mr-0 xls:mr-10 md:w-[320px] lg:h-[500px] rounded-2xl xls:h-80 xls:w-[230px] md:relative md:mt-[-100px] xls:my-auto z-10 bg-inherit transition-all duration-300"*/}
