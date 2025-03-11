@@ -1,0 +1,35 @@
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateX(20px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+.fade-in {
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+/* CSS */
+/* If you're using Tailwind CSS */
+/* If you're using regular CSS */
+img.no-transition {
+    transition: none !important;
+}
+
+/* Target the specific images by class name and remove transitions */
+img.wavehme1,
+img.wavehme2 {
+    transition: none !important;
+}
+
+
+
+ .Typewriter {
+    font-weight: bold;
+    /*margin-left: 10px;*/
+
+    --tw-text-opacity: 1;
+    color: rgb(147 51 234 / var(--tw-text-opacity)); 
+  
+    @apply lg:text-[33px] md:text-[21px] xls:text-[18px] lg:ml-[10px] md:ml-[10px] sm:ml-[10px] md:mt-0 xls:mt-1 md:relative xls:ml-[-155px];
+  }
+
