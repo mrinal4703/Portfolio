@@ -44,7 +44,7 @@ const Home = () => {
                             <div className={'md:flex md:flex-row-reverse xls:flex xls:flex-col'}>
                                 <div className='flex justify-center'>
                                     <img src={me}
-                                         className="w-full  md:mr-0 xls:mr-10 md:w-[320px] lg:w-[380px] lg:h-[380px] md:h-[320px] xls:h-56 xls:w-[230px] md:relative md:mt-[-100px] xls:my-auto z-10 bg-inherit transition-all duration-300"
+                                         className="w-full md:mr-0 xls:mr-10 md:w-[320px] lg:w-[380px] lg:h-[380px] md:h-[320px] xls:h-56 xls:w-[230px] md:relative md:mt-[-100px] xls:my-auto z-10 bg-inherit transition-all duration-300 rounded-full lg:border-4 xls:border-2 border-black"
                                          alt=''/>
                                     {/*<img src={me2}*/}
                                     {/*     className="lg:w-[360px] lg:ml-10 md:mr-0 xls:mr-10 md:w-[320px] lg:h-[500px] rounded-2xl xls:h-80 xls:w-[230px] md:relative md:mt-[-100px] xls:my-auto z-10 bg-inherit transition-all duration-300"*/}
@@ -144,14 +144,24 @@ const Home = () => {
                                     >
                                         <h3 className="vertical-timeline-element-title font-semibold">{education.educationName}</h3>
                                         <cite className="vertical-timeline-element-subtitle">{education.schoolName}</cite>
-                                        <p>{education.text}</p>
+                                        <p>
+                                            <div
+                                                className="text-[10px] text-left my-2 md:group-hover:text-gray-200 text-gray-500">
+                                                {education.text.map((point, index) => (
+                                                    <div key={index} className="flex items-center gap-2">
+                                                        <img src={education.icon} className="h-6 mt-2 font-black" alt="icon"/>
+                                                        <p className="block mb-1 whitespace-pre-line">{point}</p>
+                                                    </div>
+                                                ))}
+                                            </div>
+                                        </p>
                                         <p>{education.performance}</p>
                                     </VerticalTimelineElement>
                                 ))}
                             </VerticalTimeline>
                         </div>
                         <div className={'grid-cols-1 md:px-10 md:py-8'}>
-                            <div
+                        <div
                                 className='md:px-24 xls:px-5'>
                                 {aboutSection.map((item, index) => (
                                     // <div key={index} className='flex md:relative md:h-full md:w-full items-center justify-center flex-col m-2 group md:hover:bg-violet-900 md:hover:border-1 rounded-lg py-2'>

@@ -52,7 +52,7 @@ import {
     // dsa2,
     rakshak, aws, devcpp, linux, windows,
     // codsoft,
-    oraclefa, cicd, devops, gate, seemsan, suvidha
+    oraclefa, cicd, devops, gate, seemsan, suvidha, comp, tag, detectivedb, surya
 } from "../assets"
 
 import {FiLinkedin, FiInstagram, FiFacebook, FiGithub} from 'react-icons/fi';
@@ -302,6 +302,14 @@ export const workDetail = [
 export const portfolio = [
     {
         id: 4,
+        title: 'DetectiveDB',
+        type: 'website',
+        desc: "Learn DBMS through solving cases.",
+        imageUrl: detectivedb,
+        link: "https://github.com/mrinal4703/DetectiveDB"
+    },
+    {
+        id: 4,
         title: 'Suvidhaa',
         type: 'website',
         desc: "A health care management portal for seamless medical related procedures with AI help.",
@@ -315,6 +323,14 @@ export const portfolio = [
         desc: "Proficient chemical management website for tracking, ordering, keeping in inventory, and assessing chemicals in realtime",
         imageUrl: seemsan,
         link: "https://github.com/mrinal4703/ChemicalManagement"
+    },
+    {
+        id: 4,
+        title: 'Surya',
+        type: 'website',
+        desc: "Visually perfectionist and assistive app for SuryaNamaskar",
+        imageUrl: surya,
+        link: "https://github.com/mrinal4703/Surya"
     },
     {
         id: 2,
@@ -372,32 +388,81 @@ export const Education = [
         pic: jbp,
         date: '2021-25',
         imageUrl: mit,
-        text: 'I am pursuing my Btech Degree from this autonomous and affiliated college, which is under SPPU (Savitribai Phule Pune University). I would be completing my Engineering by 2025.',
+        icon: comp,
+        text: [
+            "Pursuing Bachelor of Technology from this autonomous and affiliated college",
+            "Under SPPU (Savitribai Phule Pune University)",
+            "To be completing Engineering by May, 2025"
+        ],
         educationName: 'BTech CSE',
         schoolName: 'MIT Academy of Engineering',
-        performance: 'TY CGPA 9.48',
+        performance: 'CGPA 9.51',
     },
     {
         id: 2,
         pic: qr,
         date: '2020',
         imageUrl: dav,
-        text: 'I completed my +2, both 11th and 12th from DAV, where I chose the stream of PCM with CS(Python and MySQL). Received a gold medal for having School rank 1 in IMO.',
+        icon: tag,
+        text: [
+            "Completed the +2, both 11th and 12th from DAV",
+            "Stream chosen was PCM with CS (Python and MySQL)",
+            "Received a gold medal for having School rank 1 in IMO"
+        ],
         educationName: 'XII CBSE',
         schoolName: 'DAV Public School, Panvel',
         performance: 'Scored 84%',
     },
     {
-        id: 1,
+        id: 3,
         pic: core,
         date: '2018',
         imageUrl: nhps,
-        text: 'I did my matriculation from NHPS. Had been a student here since my grade 8. Being a Naval Brat, I was in Naval School till grade 7th. Received a gold medal in SpellQuest.',
+        icon: tag,
+        text: [
+            "Completed the matriculation and had been a student here since grade 8",
+            "Being a Naval Brat, was in Naval School till grade 7th",
+            "Received a gold medal in SpellQuest"
+        ],
         educationName: 'X CBSE',
         schoolName: 'New Horizon Public School, Panvel',
         performance: 'Scored 88.8%',
     }
 ]
+
+
+// export const Education = [
+//     {
+//         id: 1,
+//         pic: jbp,
+//         date: '2021-25',
+//         imageUrl: mit,
+//         text: 'I am pursuing my Btech Degree from this autonomous and affiliated college, which is under SPPU (Savitribai Phule Pune University). I would be completing my Engineering by 2025.',
+//         educationName: 'BTech CSE',
+//         schoolName: 'MIT Academy of Engineering',
+//         performance: 'TY CGPA 9.48',
+//     },
+//     {
+//         id: 2,
+//         pic: qr,
+//         date: '2020',
+//         imageUrl: dav,
+//         text: 'I completed my +2, both 11th and 12th from DAV, where I chose the stream of PCM with CS(Python and MySQL). Received a gold medal for having School rank 1 in IMO.',
+//         educationName: 'XII CBSE',
+//         schoolName: 'DAV Public School, Panvel',
+//         performance: 'Scored 84%',
+//     },
+//     {
+//         id: 1,
+//         pic: core,
+//         date: '2018',
+//         imageUrl: nhps,
+//         text: 'I did my matriculation from NHPS. Had been a student here since my grade 8. Being a Naval Brat, I was in Naval School till grade 7th. Received a gold medal in SpellQuest.',
+//         educationName: 'X CBSE',
+//         schoolName: 'New Horizon Public School, Panvel',
+//         performance: 'Scored 88.8%',
+//     }
+// ]
 
 export const ide = [
     {
@@ -471,6 +536,13 @@ export const Internship = [
         companydesc: 'Foundations Associate Oracle Cloud Infrastructure',
         company: 'Oracle Certified, Virtual Certification',
         duration: 'Aug 19, 2023'
+    },
+    {
+        id: 2,
+        imageUrl: oraclefa,
+        companydesc: 'MITAOE Entry Pass Web Development Internship',
+        company: 'MIT Academy of Engineering',
+        duration: 'July 2023 - Aug 2023'
     },
     {
         id: 2,

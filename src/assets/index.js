@@ -122,6 +122,11 @@ import gate from './gate.jpeg'
 import edunet from './edunet.png'
 import suvidha from './suvidhaa.jpg'
 import seemsan from './seemsan.jpg'
+import detectivedb from './detectivedb.jpg'
+import comp from './comp.png'
+import tag from './tag.png'
+import surya from './surya.jpg'
+
 export {
     calc, compjs, fileshare, jbp, modernjs, qr, rbc, pyoop, pystud, supervised,
     logo, mylogo, mylogo1, cognizantLogo,wellsLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
@@ -132,10 +137,10 @@ export {
     angular,backendev,frontenddev,appdev,linux,
     typescript,mit,nhps,dav,windows, backimage, backimage1,
     android,mitentry,projekta,puc,foodex,rakshak,
-    gitlab,teachnook,aws,resume, me1,
+    gitlab,teachnook,aws,resume, me1, comp, tag,
     ionic,oracle,bootstrap,mongo,cpp,java,restapi,spring,
-    firebase,contactme,codsoft,oraclefa,
-    mysql,up,flashmob,calcapp,devcpp,
+    firebase,contactme,codsoft,oraclefa, surya,
+    mysql,up,flashmob,calcapp,devcpp, detectivedb,
     react,portfolios,tailwind,waveportfolio,wavecompanies,
     wave,wavehome,wavehome2,wavecontact,waveabout1,waveport2,waveport1,wavecontact1,wavehm1,wavehme1,wavehme2,
     robo, dsa, dsa0, dsa1, dsa2, pycharm, ubuntu, jupyter,cicd,devops,gate,edunet,seemsan,suvidha,me2

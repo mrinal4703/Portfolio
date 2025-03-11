@@ -135,22 +135,22 @@ const Skills = () => {
                 </div>
 
                 <div className='grid grid-cols-1 md:grid-cols-3 px-4 md:my-8 w-screen justify-center items-center'>
-                    <div className="col-span-1 md:col-span-1 justify-center mx-auto md:px-0 my-3">
-                        <div className="md:gap-2 xls:gap-y-2 xls:gap-x-7 items-center">
+                    <div className="col-span-1 md:col-span-1 justify-center mx-auto md:px-0 my-4">
+                        <div className="md:gap-4 xls:gap-y-2 xls:gap-x-7 items-center">
                             {CompanyImage.map((item, index) => (
                                 <div className="my-4 justify-evenly">
                                     <div className={'flex flex-wrap '}>
                                         <img src={item.imageUrl} className={'h-8 w-8 rounded-full mx-3'} alt=''/>
                                         <cite className="text-xl font-bold">{item.company}</cite>
                                     </div>
-                                    <p className="mt-2">{item.description}</p>
+                                    <p className="mt-2 mb-10">{item.description}</p>
                                 </div>
                             ))}
                         </div>
                     </div>
 
                     <div className="col-span-1 md:col-span-2 items-center">
-                        <div className="mx-auto grid justify-between grid-cols-2 md:grid-cols-4 gap-2 md:gap-24">
+                        <div className="mx-auto grid justify-between grid-cols-2 md:grid-cols-3 gap-2 md:gap-6">
                             {Internship.map((item, index) => (
                                 <div key={index}
                                      className="card flex flex-col items-center justify-center transition-all ease-in-out bg-white md:w-64 md:h-48 w-full h-full rounded-lg shadow-md p-4">
