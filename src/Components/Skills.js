@@ -93,7 +93,8 @@ const Skills = () => {
                             ))}
                         </div>
                     </div>
-                    <div className='flex flex-col mx-auto md:flex-row justify-evenly xls:hidden sm:block px-8 md:my-0 xls:my-5 md:px-0'>
+                    <div
+                        className='flex flex-col mx-auto md:flex-row justify-evenly xls:hidden sm:block px-8 md:my-0 xls:my-5 md:px-0'>
                         <div className='grid grid-cols-6 md:grid-cols-6 md:gap-8 xls:gap-x-12 xls:gap-y-5 items-center'>
                             {ide.map((item1, index1) => (
                                 <div
@@ -138,13 +139,15 @@ const Skills = () => {
                     <div className="col-span-1 md:col-span-1 justify-center mx-auto md:px-0 my-4">
                         <div className="md:gap-4 xls:gap-y-2 xls:gap-x-7 items-center">
                             {CompanyImage.map((item, index) => (
-                                <div className="my-4 justify-evenly">
-                                    <div className={'flex flex-wrap '}>
-                                        <img src={item.imageUrl} className={'h-8 w-8 rounded-full mx-3'} alt=''/>
-                                        <cite className="text-xl font-bold">{item.company}</cite>
+                                <a href={item.link} target="_blank" rel="noopener noreferrer" className="block">
+                                    <div className="my-4 justify-evenly">
+                                        <div className={'flex flex-wrap '}>
+                                            <img src={item.imageUrl} className={'h-8 w-8 rounded-full mx-3'} alt=''/>
+                                            <cite className="text-xl font-bold">{item.company}</cite>
+                                        </div>
+                                        <p className="mt-2 mb-10">{item.description}</p>
                                     </div>
-                                    <p className="mt-2 mb-10">{item.description}</p>
-                                </div>
+                                </a>
                             ))}
                         </div>
                     </div>
@@ -154,11 +157,13 @@ const Skills = () => {
                             {Internship.map((item, index) => (
                                 <div key={index}
                                      className="card flex flex-col items-center justify-center transition-all ease-in-out bg-white md:w-64 md:h-48 w-full h-full rounded-lg shadow-md p-4">
-                                    <div className="text-center">
-                                        <h1 className="font-bold mb-2 md:text-[16px] xls:text-[14px]">{item.companydesc}</h1>
-                                        <h3 className="font-thin md:text-base xls:text-sm text-slate-500 mb-1">{item.company}</h3>
-                                        <h3 className="text-sm text-slate-500">{item.duration}</h3>
-                                    </div>
+                                    <a href={item.link} target="_blank" rel="noopener noreferrer" className="block">
+                                        <div className="text-center">
+                                            <h1 className="font-bold mb-2 md:text-[16px] xls:text-[14px]">{item.companydesc}</h1>
+                                            <h3 className="font-thin md:text-base xls:text-sm text-slate-500 mb-1">{item.company}</h3>
+                                            <h3 className="text-sm text-slate-500">{item.duration}</h3>
+                                        </div>
+                                    </a>
                                 </div>
                             ))}
                         </div>

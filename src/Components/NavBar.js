@@ -17,10 +17,10 @@ const NavBar = () => {
 
   return (
     <div className="w-full z-1 bg-black p-[10px] flex justify-between items-center">
-      <Link to="/" onClick={handleMenuItemClick}><img src={mylogo1} className="lg:h-[60px] md:h-[60px] sm:h-[60px] xls:h-[50px] mb-0" alt='LOGO'/></Link>
+      <Link to="/" onClick={handleMenuItemClick}><img src={mylogo1} className="lg15.6:h-[60px] md:h-[60px] sm:h-[60px] xls:h-[50px] mb-0" alt='LOGO'/></Link>
       {/*<h1 className={'xs:text-md xs:text-white'}>Mrinal Gupta</h1>*/}
       <div>
-        <ul className="hidden text-white md:flex">
+        <ul className="hidden lg15.6:text-lg md:text-base text-white md:flex">
           <li className="menuItem hover:scale-110">
             <Link to="/" onClick={handleMenuItemClick}>About Me</Link>
           </li>

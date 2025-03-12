@@ -34,7 +34,7 @@ function App() {
     }, []);
 
     return (
-        <div className="App">
+        <div className="App overflow-x-hidden">
             <Router>
                 <NavBar/>
                 <img src={wavehome} className="lg:w-screen m-0 md:w-screen xls:h-[-50px] xls:w-screen absolute z-[-1]"

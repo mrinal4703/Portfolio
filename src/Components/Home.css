@@ -30,6 +30,6 @@ img.wavehme2 {
     --tw-text-opacity: 1;
     color: rgb(147 51 234 / var(--tw-text-opacity)); 
   
-    @apply lg:text-[33px] md:text-[21px] xls:text-[18px] lg:ml-[10px] md:ml-[10px] sm:ml-[10px] md:mt-0 xls:mt-1 md:relative xls:ml-[-155px];
+    @apply lg15.6:text-[33px] md:text-[30px] xls:text-[18px] lg15.6:ml-[10px] md:ml-[10px] sm:ml-[10px] md:mt-0 xls:mt-1 xls:ml-[-155px];
   }
 

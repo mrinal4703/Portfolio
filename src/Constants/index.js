@@ -328,7 +328,7 @@ export const portfolio = [
         id: 4,
         title: 'Surya',
         type: 'website',
-        desc: "Visually perfectionist and assistive app for SuryaNamaskar",
+        desc: "A visually assistive app that perfects your Surya Namaskar poses using angles and other metrics.",
         imageUrl: surya,
         link: "https://github.com/mrinal4703/Surya"
     },
@@ -528,28 +528,32 @@ export const Internship = [
         imageUrl: oraclefa,
         companydesc: 'Internship in CLoud Computing',
         company: 'Uniconverge Technologies Pvt. Ltd.',
-        duration: 'May 2024 - June 2024'
+        duration: 'May 2024 - June 2024',
+        link: 'https://drive.google.com/file/d/1nHoxUCSuFlVvRyz4QxRj-qIwkF-lieaa/view?usp=sharing'
     },
     {
         id: 2,
         imageUrl: oraclefa,
         companydesc: 'Foundations Associate Oracle Cloud Infrastructure',
         company: 'Oracle Certified, Virtual Certification',
-        duration: 'Aug 19, 2023'
+        duration: 'Aug 19, 2023',
+        link: 'https://drive.google.com/file/d/1tE0uYRzBdGULoTA4ia9nD6TXkbonF2i6/view?usp=sharing'
     },
     {
         id: 2,
         imageUrl: oraclefa,
         companydesc: 'MITAOE Entry Pass Web Development Internship',
         company: 'MIT Academy of Engineering',
-        duration: 'July 2023 - Aug 2023'
+        duration: 'July 2023 - Aug 2023',
+        link: 'https://drive.google.com/file/d/1MccAhyQpmt5L18ZcSS6H_j4Prt9K4afa/view?usp=sharing'
     },
     {
         id: 2,
         imageUrl: teachnook,
         companydesc: 'Basics of Web Development (Full Stack)',
         company: 'Teachnook, Virtual Internship',
-        duration: 'Aug 2022 - Sep 2022'
+        duration: 'Aug 2022 - Sep 2022',
+        link: 'https://drive.google.com/file/d/1hk2gyqoklJC52CCTQFlaKC7it14_53X5/view?usp=sharing'
     }
 ]
 
@@ -560,7 +564,8 @@ export const CompanyImage = [
         companydesc: 'GATE 2024',
         company: 'Gate',
         duration: 'February 10, 2024',
-        description: 'Qualified GATE 2024'
+        description: 'Qualified GATE 2024',
+        link: 'https://drive.google.com/file/d/1xXLUCQBoE1IBqjLXckc8DGThu7ZXIBNW/view?usp=sharing'
     },
     {
         id: 2,
@@ -568,7 +573,8 @@ export const CompanyImage = [
         companydesc: 'Microsoft Certified: Azure Fundamentals',
         company: 'Microsoft',
         duration: 'December 30, 2023',
-        description: 'Global certification AZ-900'
+        description: 'Global certification AZ-900',
+        link: 'https://drive.google.com/file/d/1JZkkSqt9qbYdrzhGKeF7Rqom0cqWITUd/view?usp=sharing'
     },
     // {
     //     id: 1,
