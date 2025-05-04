@@ -13,6 +13,7 @@ import {FiLinkedin, FiInstagram, FiMail, FiGithub, FiFacebook} from "react-icons
 import {Education} from '../Constants';
 import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
 import 'react-vertical-timeline-component/style.min.css';
+import {SiCodechef, SiLeetcode} from "react-icons/si";
 
 const Home = () => {
 
@@ -81,7 +82,7 @@ const Home = () => {
                                                         <FiFacebook className="w-6 h-6"/>
                                                     </button>
                                                 </a>
-                                                <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=&cc=mrinal.gupta@mitaoe.ac.in"
+                                                <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=&cc=mrinalgupta04072003@gmail.com"
                                                    target='_blank' rel='noreferrer' className="no-underline">
                                                     <button
                                                         className="mx-2 transition-all duration-300 lg15.6:h-12 lg15.6:w-12 md:h-10 md:w-10 inline-flex items-center justify-center rounded-full bg-gradient-to-br from-purple-900 to-purple-500 p-2 text-white shadow-lg hover:shadow-xl hover:scale-125">
@@ -93,13 +94,29 @@ const Home = () => {
                                         <div className='lg15.6:ml-0 lg15.6:py-0'>
                                             <h3 className='font-thin text-base lg15.6:text-lg md:text-sm text-slate-100 lg15.6:mx-2 xls:mx-0 lg15.6:my-0 xls:my-2 lg15.6:block md:block sm:block xls:hidden lg15.6:mb-4 md:mb-4'>My
                                                 works in</h3>
-                                            <div className='grid grid-cols-4'>
+                                            <div className='grid grid-cols-4 md:w-full xls:w-1/2 xls:my-2'>
                                                 <a href="https://github.com/mrinal4703" target='_blank'
                                                    rel='noreferrer'
                                                    className="no-underline">
                                                     <button
                                                         className="mx-2 transition-all duration-300 lg15.6:h-12 lg15.6:w-12 md:h-10 md:w-10 inline-flex items-center justify-center rounded-full bg-gradient-to-br from-purple-900 to-purple-500 p-2 text-white shadow-lg hover:scale-125">
                                                         <FiGithub className="w-6 h-6"/>
+                                                    </button>
+                                                </a>
+                                                <a href="https://leetcode.com/u/mrinxl03/" target='_blank'
+                                                   rel='noreferrer'
+                                                   className="no-underline">
+                                                    <button
+                                                        className="mx-2 transition-all duration-300 lg15.6:h-12 lg15.6:w-12 md:h-10 md:w-10 inline-flex items-center justify-center rounded-full bg-gradient-to-br from-purple-900 to-purple-500 p-2 text-white shadow-lg hover:scale-125">
+                                                        <SiLeetcode className="w-6 h-6"/>
+                                                    </button>
+                                                </a>
+                                                <a href="https://www.codechef.com/users/mrinalg03" target='_blank'
+                                                   rel='noreferrer'
+                                                   className="no-underline">
+                                                    <button
+                                                        className="mx-2 transition-all duration-300 lg15.6:h-12 lg15.6:w-12 md:h-10 md:w-10 inline-flex items-center justify-center rounded-full bg-gradient-to-br from-purple-900 to-purple-500 p-2 text-white shadow-lg hover:scale-125">
+                                                        <SiCodechef className="w-6 h-6"/>
                                                     </button>
                                                 </a>
                                             </div>

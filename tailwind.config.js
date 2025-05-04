@@ -8,6 +8,9 @@ module.exports = {
       },
       colors: {
         customBlack: '#000001',
+        bg: 'var(--color-bg)',
+        text: 'var(--color-text)',
+        card: 'var(--color-card)',
       },
       screens: {
         'xls': '360px',

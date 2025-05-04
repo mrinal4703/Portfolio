@@ -23,9 +23,9 @@ import dsa2 from './dsa2.png'
 import lappy from './lappy.png'
 import melappy from './melappy.png'
 import pycharm from './pycharm.png'
-
+import erp from './erp.png'
 import devcpp from './devcpp.png'
-import foodex from './foodex.jpg'
+import foodex from './foodex.png'
 import puc from './puc.jpg'
 import rakshak from './rakshak.jpg'
 import mitentry from './mitentry.jpg'
@@ -122,26 +122,33 @@ import gate from './gate.jpeg'
 import edunet from './edunet.png'
 import suvidha from './suvidhaa.jpg'
 import seemsan from './seemsan.jpg'
-import detectivedb from './detectivedb.jpg'
+import detectivedb from './detectivedb.png'
 import comp from './comp.png'
 import tag from './tag.png'
 import surya from './surya.jpg'
+import gate2 from './gate2.jpg'
+import nptel from './nptel.png'
+import postman from './postman.png'
+import jenkins from './jenkins.png'
+import opencv from './opencv.png'
+import flask from './flask.png'
+import terraform from './terraform.png'
 
 export {
     calc, compjs, fileshare, jbp, modernjs, qr, rbc, pyoop, pystud, supervised,
     logo, mylogo, mylogo1, cognizantLogo,wellsLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
-    homeImage,me,aflacLogo,wiuLogo,lappy,melappy,internship,
+    homeImage,me,aflacLogo,wiuLogo,lappy,melappy,internship, opencv,
     book,tele,core,foundation,fundamentals,elastic,kuber,prep,
-    laptop,puthon,CyberOpsAssoc,introcybersec,
+    laptop,puthon,CyberOpsAssoc,introcybersec, erp,
     skill,skillpot,skillpot1,vs,netbeans,intellije,eclipse,androidstud,
-    angular,backendev,frontenddev,appdev,linux,
+    angular,backendev,frontenddev,appdev,linux, jenkins, flask,
     typescript,mit,nhps,dav,windows, backimage, backimage1,
-    android,mitentry,projekta,puc,foodex,rakshak,
-    gitlab,teachnook,aws,resume, me1, comp, tag,
+    android,mitentry,projekta,puc,foodex,rakshak, terraform,
+    gitlab,teachnook,aws,resume, me1, comp, tag, postman,
     ionic,oracle,bootstrap,mongo,cpp,java,restapi,spring,
     firebase,contactme,codsoft,oraclefa, surya,
-    mysql,up,flashmob,calcapp,devcpp, detectivedb,
+    mysql,up,flashmob,calcapp,devcpp, detectivedb, nptel,
     react,portfolios,tailwind,waveportfolio,wavecompanies,
     wave,wavehome,wavehome2,wavecontact,waveabout1,waveport2,waveport1,wavecontact1,wavehm1,wavehme1,wavehme2,
-    robo, dsa, dsa0, dsa1, dsa2, pycharm, ubuntu, jupyter,cicd,devops,gate,edunet,seemsan,suvidha,me2
+    robo, dsa, dsa0, dsa1, dsa2, pycharm, ubuntu, jupyter,cicd,devops,gate,edunet,seemsan,suvidha,me2, gate2
 }

@@ -50,9 +50,27 @@ import {
     dsa,
     // dsa1,
     // dsa2,
-    rakshak, aws, devcpp, linux, windows,
+    rakshak,
+    aws,
+    devcpp,
+    linux,
+    windows,
     // codsoft,
-    oraclefa, cicd, devops, gate, seemsan, suvidha, comp, tag, detectivedb, surya
+    oraclefa,
+    cicd,
+    devops,
+    gate,
+    seemsan,
+    suvidha,
+    comp,
+    tag,
+    detectivedb,
+    surya,
+    gate2,
+    nptel,
+    postman,
+    jenkins,
+    opencv, flask, terraform, erp
 } from "../assets"
 
 import {FiLinkedin, FiInstagram, FiFacebook, FiGithub} from 'react-icons/fi';
@@ -81,7 +99,7 @@ export const AppText = {
     WorkedFor: '& Achievements',
     Contact: 'Contact ',
     Us: 'Me',
-    copywriteText: 'Copyright by Mrinal Gupta @2023'
+    copywriteText: 'Copyright by Mrinal Gupta @'
 }
 
 export const aboutSection = [
@@ -200,8 +218,28 @@ export const skillsList = [
     },
     {
         id: 1,
+        icon: jenkins,
+        text: 'Jenkins'
+    },
+    {
+        id: 1,
+        icon: terraform,
+        text: 'Terraform'
+    },
+    {
+        id: 1,
         icon: puthon,
         text: 'Python'
+    },
+    {
+        id: 1,
+        icon: opencv,
+        text: 'OpenCV'
+    },
+    {
+        id: 1,
+        icon: flask,
+        text: 'Flask'
     },
     {
         id: 1,
@@ -310,6 +348,14 @@ export const portfolio = [
     },
     {
         id: 4,
+        title: 'MITAOE ERP',
+        type: 'website',
+        desc: "More corrected version of MITAOE's ERP.",
+        imageUrl: erp,
+        link: "https://github.com/mrinal4703/MITAOE-ERP"
+    },
+    {
+        id: 4,
         title: 'Suvidhaa',
         type: 'website',
         desc: "A health care management portal for seamless medical related procedures with AI help.",
@@ -349,12 +395,12 @@ export const portfolio = [
         link: "https://github.com/TeamYogya/Rakshak-Web"
     },
     {
-        id: 3,
-        title: 'Foodex - 2',
+        id: 1,
+        title: 'Foodex Food Delivery Platform',
         type: 'website',
-        desc: "Delicious food delivered fast to your doorstep. Easy ordering, wide menu, and quick service. (Better UI)",
+        desc: "Delicious food delivered fast to your doorstep. Easy ordering, wide menu, and quick service.",
         imageUrl: foodex,
-        link: "https://github.com/mrinal4703/Foodex-1"
+        link: "https://github.com/mrinal4703/Foodex"
     },
     {
         id: 4,
@@ -363,14 +409,6 @@ export const portfolio = [
         desc: "Efficient project management tool for seamless team collaboration and productivity.",
         imageUrl: projekta,
         link: "https://github.com/mrinal4703/Projekta"
-    },
-    {
-        id: 1,
-        title: 'Foodex Food Delivery Platform',
-        type: 'website',
-        desc: "Delicious food delivered fast to your doorstep. Easy ordering, wide menu, and quick service.",
-        imageUrl: foodex,
-        link: "https://github.com/mrinal4703/Foodex"
     },
     {
         id: 3,
@@ -507,6 +545,11 @@ export const ide = [
     },
     {
         id: 1,
+        icon: postman,
+        text: 'Postman'
+    },
+    {
+        id: 1,
         icon: pycharm,
         text: 'PyCharm'
     },
@@ -560,12 +603,30 @@ export const Internship = [
 export const CompanyImage = [
     {
         id: 5,
+        imageUrl: gate2,
+        companydesc: 'GATE 2025',
+        company: 'Gate',
+        duration: 'February 1, 2025',
+        description: 'Qualified GATE 2025',
+        link: 'https://drive.google.com/file/d/1cECh2S9cC_nHJyH0ZLa3wed-Ky1YzkFH/view?usp=sharing'
+    },
+    {
+        id: 5,
+        imageUrl: nptel,
+        companydesc: 'Introduction to Industry 4.0 and Industrial Internet of Things',
+        company: 'NPTEL',
+        duration: 'October 26, 2024',
+        description: 'Top 5%, and Silver Medal',
+        link: 'https://drive.google.com/file/d/14KfAP9WaZWCbKmvbIzX0ciDC2X_zxXSr/view?usp=sharing'
+    },
+    {
+        id: 5,
         imageUrl: gate,
         companydesc: 'GATE 2024',
         company: 'Gate',
         duration: 'February 10, 2024',
         description: 'Qualified GATE 2024',
-        link: 'https://drive.google.com/file/d/1xXLUCQBoE1IBqjLXckc8DGThu7ZXIBNW/view?usp=sharing'
+        link: 'https://drive.google.com/file/d/14KfAP9WaZWCbKmvbIzX0ciDC2X_zxXSr/view?usp=sharing'
     },
     {
         id: 2,
