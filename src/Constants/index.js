@@ -70,7 +70,10 @@ import {
     nptel,
     postman,
     jenkins,
-    opencv, flask, terraform, erp
+    opencv, flask, terraform, erp,
+    gate3,
+    iitptna,
+    iitkgp
 } from "../assets"
 
 import {FiLinkedin, FiInstagram, FiFacebook, FiGithub} from 'react-icons/fi';
@@ -424,17 +427,44 @@ export const Education = [
     {
         id: 1,
         pic: jbp,
+        date: '2026-28',
+        imageUrl: iitptna,
+        icon: comp,
+        text: [
+            "Pursuing Master of Technology in  Cloud Computing (Full Time Hybrid Mode)",
+            "To be completing Engineering by 2028"
+        ],
+        educationName: 'MTech Cloud',
+        schoolName: 'Indian Institute of Technology, Patna',
+        performance: '',
+    },
+    {
+        id: 1,
+        pic: jbp,
+        date: 'May 2026 - Feb 2027',
+        imageUrl: iitkgp,
+        icon: comp,
+        text: [
+            "Purshuing Executive Post Graduate in Applied AI and Machine Learning",
+            "To be completed by Feb, 2027"
+        ],
+        educationName: 'PG AI',
+        schoolName: 'Indian Institute of Technology, Kharagpur',
+        performance: '',
+    },
+    {
+        id: 1,
+        pic: jbp,
         date: '2021-25',
         imageUrl: mit,
         icon: comp,
         text: [
-            "Pursuing Bachelor of Technology from this autonomous and affiliated college",
-            "Under SPPU (Savitribai Phule Pune University)",
-            "To be completing Engineering by May, 2025"
+            "Graduated Bachelor of Technology from this autonomous and affiliated college",
+            "Under SPPU (Savitribai Phule Pune University)"
         ],
         educationName: 'BTech CSE',
         schoolName: 'MIT Academy of Engineering',
-        performance: 'CGPA 9.51',
+        performance: 'CGPA 9.56',
     },
     {
         id: 2,
@@ -603,6 +633,24 @@ export const Internship = [
 export const CompanyImage = [
     {
         id: 5,
+        imageUrl: gate3,
+        companydesc: 'GATE 2026',
+        company: 'Gate',
+        duration: 'February 8, 2026',
+        description: 'Qualified GATE 2026',
+        link: 'https://drive.google.com/file/d/1ZYsEpKlElUUi9tCuDlJkHNdjxpZRoqIg/view?usp=drive_link'
+    },
+        {
+        id: 5,
+        imageUrl: gate3,
+        companydesc: 'BEst Student, 2025',
+        company: 'MITAoE',
+        duration: 'May 23, 2025',
+        description: 'Best Outgoing Student',
+        link: 'https://drive.google.com/file/d/1xjIg2KBpkH4S8nIrsDAFtrkcvrJ6USVt/view?usp=drive_link'
+    },
+    {
+        id: 5,
         imageUrl: gate2,
         companydesc: 'GATE 2025',
         company: 'Gate',
@@ -617,7 +665,7 @@ export const CompanyImage = [
         company: 'NPTEL',
         duration: 'October 26, 2024',
         description: 'Top 5%, and Silver Medal',
-        link: 'https://drive.google.com/file/d/14KfAP9WaZWCbKmvbIzX0ciDC2X_zxXSr/view?usp=sharing'
+        link: 'https://drive.google.com/file/d/1LVcprxH6-jnlj5-jhKP1fc6D-LN4MunG/view?usp=drive_link'
     },
     {
         id: 5,

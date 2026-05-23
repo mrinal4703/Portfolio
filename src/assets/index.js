@@ -10,7 +10,7 @@ import backimage1 from './backimage1.jpg'
 import me1 from './me1.png'
 import codsoft from './codsoft.jpg'
 import oraclefa from './oraclefa.png'
-import resume from './MrinalGuptaResumeMITAOEBTech.pdf'
+import resume from './MrinalGupta_Resume.pdf'
 import skillpot from './skillpot.png'
 import skillpot1 from './skillpot1.png'
 import me from './me.png'
@@ -108,6 +108,9 @@ import qr from './qr.jpg'
 import rbc from './rbc.jpg'
 import ubuntu from './ubuntu.png'
 import jupyter from './jupyter.png'
+import gate3 from './gate3.png'
+import iitkgp from './iitkgp.jpg'
+import iitptna from './iitpatna.jpg'
 
 import vs from './vs.png'
 import windows from './windows.png'
@@ -139,14 +142,14 @@ export {
     logo, mylogo, mylogo1, cognizantLogo,wellsLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
     homeImage,me,aflacLogo,wiuLogo,lappy,melappy,internship, opencv,
     book,tele,core,foundation,fundamentals,elastic,kuber,prep,
-    laptop,puthon,CyberOpsAssoc,introcybersec, erp,
+    laptop,puthon,CyberOpsAssoc,introcybersec, erp, iitkgp, iitptna,
     skill,skillpot,skillpot1,vs,netbeans,intellije,eclipse,androidstud,
     angular,backendev,frontenddev,appdev,linux, jenkins, flask,
     typescript,mit,nhps,dav,windows, backimage, backimage1,
     android,mitentry,projekta,puc,foodex,rakshak, terraform,
     gitlab,teachnook,aws,resume, me1, comp, tag, postman,
     ionic,oracle,bootstrap,mongo,cpp,java,restapi,spring,
-    firebase,contactme,codsoft,oraclefa, surya,
+    firebase,contactme,codsoft,oraclefa, surya, gate3,
     mysql,up,flashmob,calcapp,devcpp, detectivedb, nptel,
     react,portfolios,tailwind,waveportfolio,wavecompanies,
     wave,wavehome,wavehome2,wavecontact,waveabout1,waveport2,waveport1,wavecontact1,wavehm1,wavehme1,wavehme2,
