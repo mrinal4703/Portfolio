@@ -642,11 +642,11 @@ export const CompanyImage = [
     },
         {
         id: 5,
-        imageUrl: gate3,
-        companydesc: 'BEst Student, 2025',
-        company: 'MITAoE',
+        imageUrl:  mit,
+        companydesc: 'Best Student, 2025',
+        company: 'MIT AOE',
         duration: 'May 23, 2025',
-        description: 'Best Outgoing Student',
+        description: 'Best Outgoing Student, 2024-25',
         link: 'https://drive.google.com/file/d/1xjIg2KBpkH4S8nIrsDAFtrkcvrJ6USVt/view?usp=drive_link'
     },
     {
