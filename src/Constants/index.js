@@ -432,23 +432,23 @@ export const Education = [
         icon: comp,
         text: [
             "Pursuing Master of Technology in  Cloud Computing (Full Time Hybrid Mode)",
-            "To be completing Engineering by 2028"
+            "To be completed by 2028"
         ],
-        educationName: 'MTech Cloud',
+        educationName: 'MTech Cloud Computing',
         schoolName: 'Indian Institute of Technology, Patna',
         performance: '',
     },
     {
         id: 1,
         pic: jbp,
-        date: 'May 2026 - Feb 2027',
+        date: '2026 - 2027',
         imageUrl: iitkgp,
         icon: comp,
         text: [
             "Purshuing Executive Post Graduate in Applied AI and Machine Learning",
-            "To be completed by Feb, 2027"
+            "To be completed by Feb, 2027 (Online)"
         ],
-        educationName: 'PG AI',
+        educationName: 'Executive PG AIML',
         schoolName: 'Indian Institute of Technology, Kharagpur',
         performance: '',
     },
