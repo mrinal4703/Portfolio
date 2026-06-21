@@ -136,18 +136,20 @@ import jenkins from './jenkins.png'
 import opencv from './opencv.png'
 import flask from './flask.png'
 import terraform from './terraform.png'
+import aiml from './aiml.png'
+import best from './best.jpg'
 
 export {
     calc, compjs, fileshare, jbp, modernjs, qr, rbc, pyoop, pystud, supervised,
     logo, mylogo, mylogo1, cognizantLogo,wellsLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
     homeImage,me,aflacLogo,wiuLogo,lappy,melappy,internship, opencv,
-    book,tele,core,foundation,fundamentals,elastic,kuber,prep,
+    book,tele,core,foundation,fundamentals,elastic,kuber,prep,best,
     laptop,puthon,CyberOpsAssoc,introcybersec, erp, iitkgp, iitptna,
     skill,skillpot,skillpot1,vs,netbeans,intellije,eclipse,androidstud,
     angular,backendev,frontenddev,appdev,linux, jenkins, flask,
     typescript,mit,nhps,dav,windows, backimage, backimage1,
     android,mitentry,projekta,puc,foodex,rakshak, terraform,
-    gitlab,teachnook,aws,resume, me1, comp, tag, postman,
+    gitlab,teachnook,aws,resume, me1, comp, tag, postman,aiml,
     ionic,oracle,bootstrap,mongo,cpp,java,restapi,spring,
     firebase,contactme,codsoft,oraclefa, surya, gate3,
     mysql,up,flashmob,calcapp,devcpp, detectivedb, nptel,

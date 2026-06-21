@@ -58,7 +58,7 @@ import {
     // codsoft,
     oraclefa,
     cicd,
-    devops,
+ //   devops,
     gate,
     seemsan,
     suvidha,
@@ -73,7 +73,9 @@ import {
     opencv, flask, terraform, erp,
     gate3,
     iitptna,
-    iitkgp
+    iitkgp,
+    aiml,
+    best
 } from "../assets"
 
 import {FiLinkedin, FiInstagram, FiFacebook, FiGithub} from 'react-icons/fi';
@@ -82,7 +84,8 @@ export const AppText = {
     hello: 'Hey there,',
     Iam: 'I am',
     MrinalGupta: 'Mrinal Gupta',
-    homeDescription:'Enthusiastic Full Stack Developer and Cloud Enthusiast skilled in Web, and C++ competitive programming. Proficient in CI/CD, React.js, Tailwind CSS, Node.js, JSON, and creating dynamic interfaces with JSX. Eager learner, constantly seeking growth and challenges in the tech industry.',
+    homeDescription:'Cloud & DevOps Engineer, Full-Stack Developer, and AI enthusiast with experience in building and deploying cloud-native applications. Skilled in AWS, CI/CD, Terraform, Docker, React.js, and Java, with exposure to real-time AI systems and scalable architectures.',
+//    homeDescription:'Enthusiastic Full Stack Developer and Cloud Enthusiast skilled in Web, and C++ competitive programming. Proficient in CI/CD, React.js, Tailwind CSS, Node.js, JSON, and creating dynamic interfaces with JSX. Eager learner, constantly seeking growth and challenges in the tech industry.',
 //    aboutMeDescripion:'I am Full stack developer, expert in Front-end  and Back-end Development, and a competitive programmer in C++',
     aboutMeDescripion: 'Enthusiastic Computer Engineering student with a stellar 9.46 CGPA, specializing in full-stack development. Expert in Front-end and Back-end Development, proficient in React.js, Node.js, MySQL, and Java, with a knack for innovative problem-solving in C++. Noteworthy projects include automating PUC certificate processing and creating a campus access system. Skilled in Python, project management, and disaster management tools like Rakshak for crisis response. ',
     aboutMeDescripion1: 'Eager to embrace challenges, I thrive on learning and seek to contribute impactful solutions to tech. Open to collaborations and networking opportunities to further explore the ever-evolving realms of technology. Let\'s connect and delve into the dynamic world of innovation and growth! ',
@@ -93,9 +96,10 @@ export const AppText = {
     TechSkills: 'Technical Skills: ',
     OtherSkills: 'Other Skills: ',
     FullStackDeveloper: 'Full Stack Developer',
-    CloudEnthusiast: 'Cloud Enthusiast',
+    CloudEnthusiast: 'Cloud Engineer',
+    DevOpsEnthusiast: 'DevOps Engineer',
+    AIMLEnthusiast: 'AI/ML Engineer',
     CompetitiveProgrammer: 'Competitive Programmer',
-    DevOps: 'DevOps Enthusiast',
     Portfolio: 'Portfolio',
     Creative: 'My Creative ',
     CompaniesI: 'Internships, Badges ',
@@ -108,6 +112,12 @@ export const AppText = {
 export const aboutSection = [
     {
         id: 1,
+        image: best,
+        title: 'Best Outgoing Student 2024-25',
+        desc: 'Got an overall of 9.56 CGPA (10 SGPA in 8th Semester) in Bachelors'
+    },
+    {
+        id: 1,
         image: frontenddev,
         title: 'Full Stack Developer',
         desc: 'Expert in Full Stack Development using Spring MVC Framework, Spring Boot, Tailwind CSS, ReactJS'
@@ -115,14 +125,14 @@ export const aboutSection = [
     {
         id: 2,
         image: cicd,
-        title: 'Cloud Enthusiast',
-        desc: 'Expert in implementation of cloud services'
+        title: 'Cloud and DevOps Engineer',
+        desc: 'Expert in implementation of Cloud Services, Development and Deployment.'
     },
     {
         id: 3,
-        image: devops,
-        title: 'DevOps Enthusiast',
-        desc: 'Development and Deployment experienced through cloud'
+        image: aiml,
+        title: 'AI/ML Engineer',
+        desc: 'experienced through cloud'
     },
     {
         id: 4,
@@ -599,7 +609,7 @@ export const Internship = [
     {
         id: 1,
         imageUrl: oraclefa,
-        companydesc: 'Internship in CLoud Computing',
+        companydesc: 'Internship in Cloud Computing',
         company: 'Uniconverge Technologies Pvt. Ltd.',
         duration: 'May 2024 - June 2024',
         link: 'https://drive.google.com/file/d/1nHoxUCSuFlVvRyz4QxRj-qIwkF-lieaa/view?usp=sharing'

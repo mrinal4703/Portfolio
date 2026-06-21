@@ -33,7 +33,7 @@ const Home = () => {
                                     <h1 className='text-white lg15.6:text-[33px] md:text-[30px] xls:text-[30px] xls:ml-2 md:mx-0 font-bold lg15.6:mr-1 md:mr-0'>{AppText.Iam}</h1>
                                     <Typewriter
                                         options={{
-                                            strings: [AppText.MrinalGupta, AppText.FullStackDeveloper, AppText.CloudEnthusiast, AppText.DevOps, AppText.CompetitiveProgrammer,],
+                                            strings: [AppText.MrinalGupta, AppText.FullStackDeveloper, AppText.CloudEnthusiast, AppText.DevOpsEnthusiast, AppText.AIMLEnthusiast, AppText.CompetitiveProgrammer,],
                                             autoStart: true,
                                             loop: true,
                                         }}
@@ -44,15 +44,20 @@ const Home = () => {
 
                             <div className={'md:flex md:flex-row-reverse xls:flex xls:flex-col'}>
                                 <div className='flex justify-center'>
-                                    <img src={me}
-                                         className="w-full md:mr-0 xls:mr-10 md:w-[320px] lg15.6:w-[380px] lg15.6:h-[380px] md:h-[320px] xls:h-56 xls:w-[230px] md:relative md:mt-[-100px] xls:my-auto z-10 bg-inherit transition-all duration-300 rounded-full lg15.6:border-4 xls:border-2 border-black"
-                                         alt=''/>
+                                    {/* <img src={me}
+                                         className="w-full md:mr-0 xls:mr-10 md:w-[320px] lg15.6:w-[380px] lg15.6:h-[380px] md:h-[320px] xls:h-56 xls:w-[230px] md:relative md:mt-[-100px] xls:my-auto z-10 bg-inherit transition-all duration-300 rounded-3xl lg15.6:border-4 xls:border-2 border-black"
+                                         alt=''/> */}
+                                        <img 
+                                        src={me}
+                                        className="w-full md:mr-0 xls:mr-10 md:w-[320px] lg15.6:w-[380px] lg15.6:h-[420px] md:h-[420px] xls:h-64 xls:w-56 md:relative md:mt-[-100px] xls:my-auto z-10 bg-inherit transition-all duration-300 rounded-3xl lg15.6:border-b-4 xls:border-b-2 border-black shadow-md object-cover"
+                                        alt=''
+                                        />
                                     {/*<img src={me2}*/}
                                     {/*     className="lg15.6:w-[360px] lg15.6:ml-10 md:mr-0 xls:mr-10 md:w-[320px] lg15.6:h-[500px] rounded-2xl xls:h-80 xls:w-[230px] md:relative md:mt-[-100px] xls:my-auto z-10 bg-inherit transition-all duration-300"*/}
                                     {/*     alt=''/>*/}
                                 </div>
 
-                                <div className={'md:w-1/2 lg15.6:mr-80 md:mr-[275px] xls:w-screen'}>
+                                <div className={'md:w-1/2 lg15.6:mr-80 mt-2 md:mr-[275px] xls:w-screen'}>
                                     <h1 className='lg15.6:my-5 md:my-2 text-neutral-300 text-base lg15.6:text-lg md:text-sm sm:text-sm md:w-full xls:w-screen lg15.6:text-white md:text-white sm:text-white xls:text-black xls:text-[14px] xls:font-medium lg15.6:mt-2 xls:mt-0 md:ml-0 xls:ml-[-12px] md:p-0 xls:px-3'>
                                         {AppText.homeDescription}
                                     </h1>
