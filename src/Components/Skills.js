@@ -3,7 +3,6 @@ import '../assets';
 import './Skill.css';
 import {
     achieve,
-    // internship,
     skillpot1
 } from '../assets';
 import '../Constants';
@@ -11,7 +10,7 @@ import {
     AppText,
     skillsList,
     // workDetail,
-    ide, CompanyImage, Internship,
+    ide, CompanyImage,
     WorkExp
 } from '../Constants';
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
