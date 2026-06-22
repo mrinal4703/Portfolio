@@ -138,12 +138,15 @@ import flask from './flask.png'
 import terraform from './terraform.png'
 import aiml from './aiml.png'
 import best from './best.jpg'
+import uct from './uct.png'
+import iitbh from './iitbh.jpg'
+import achieve from './achieve.png'
 
 export {
     calc, compjs, fileshare, jbp, modernjs, qr, rbc, pyoop, pystud, supervised,
     logo, mylogo, mylogo1, cognizantLogo,wellsLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
     homeImage,me,aflacLogo,wiuLogo,lappy,melappy,internship, opencv,
-    book,tele,core,foundation,fundamentals,elastic,kuber,prep,best,
+    book,tele,core,foundation,fundamentals,elastic,kuber,prep,best,achieve,
     laptop,puthon,CyberOpsAssoc,introcybersec, erp, iitkgp, iitptna,
     skill,skillpot,skillpot1,vs,netbeans,intellije,eclipse,androidstud,
     angular,backendev,frontenddev,appdev,linux, jenkins, flask,
@@ -151,9 +154,9 @@ export {
     android,mitentry,projekta,puc,foodex,rakshak, terraform,
     gitlab,teachnook,aws,resume, me1, comp, tag, postman,aiml,
     ionic,oracle,bootstrap,mongo,cpp,java,restapi,spring,
-    firebase,contactme,codsoft,oraclefa, surya, gate3,
+    firebase,contactme,codsoft,oraclefa, surya, gate3,uct,
     mysql,up,flashmob,calcapp,devcpp, detectivedb, nptel,
-    react,portfolios,tailwind,waveportfolio,wavecompanies,
+    react,portfolios,tailwind,waveportfolio,wavecompanies,iitbh,
     wave,wavehome,wavehome2,wavecontact,waveabout1,waveport2,waveport1,wavecontact1,wavehm1,wavehme1,wavehme2,
     robo, dsa, dsa0, dsa1, dsa2, pycharm, ubuntu, jupyter,cicd,devops,gate,edunet,seemsan,suvidha,me2, gate2
 }

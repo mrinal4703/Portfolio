@@ -75,7 +75,9 @@ import {
     iitptna,
     iitkgp,
     aiml,
-    best
+    best,
+    uct,
+    iitbh
 } from "../assets"
 
 import {FiLinkedin, FiInstagram, FiFacebook, FiGithub} from 'react-icons/fi';
@@ -90,9 +92,10 @@ export const AppText = {
     aboutMeDescripion: 'Enthusiastic Computer Engineering student with a stellar 9.46 CGPA, specializing in full-stack development. Expert in Front-end and Back-end Development, proficient in React.js, Node.js, MySQL, and Java, with a knack for innovative problem-solving in C++. Noteworthy projects include automating PUC certificate processing and creating a campus access system. Skilled in Python, project management, and disaster management tools like Rakshak for crisis response. ',
     aboutMeDescripion1: 'Eager to embrace challenges, I thrive on learning and seek to contribute impactful solutions to tech. Open to collaborations and networking opportunities to further explore the ever-evolving realms of technology. Let\'s connect and delve into the dynamic world of innovation and growth! ',
     // Skills: 'Skills, train',
-    Skills: 'Skills, Achieve',
+    Skills: 'Skills, and ',
     // Experties: 'ings & Courses',
-    Experties: 'ments, & Internships',
+    Experties: 'Compatibility',
+    Internships: 'Work Experiences and Achievements',
     TechSkills: 'Technical Skills: ',
     OtherSkills: 'Other Skills: ',
     FullStackDeveloper: 'Full Stack Developer',
@@ -508,6 +511,47 @@ export const Education = [
     }
 ]
 
+export const WorkExp = [
+    {
+        id: 1,
+        pic: jbp,
+        date: 'May 2024 – Jun 2024',
+        imageUrl: uct,
+        icon: comp,
+        text: [
+            "Architected and deployed a full-stack healthcare portal on AWS, automating the release pipeline using CodePipeline, CodeBuild, and CodeDeploy. Configured Application Load Balancer and Auto Scaling Groups for high-availability"
+        ],
+        educationName: 'Uniconverge Technologies Pvt. Ltd.',
+        schoolName: 'Cloud Computing Internship | Remote | Summer Internship 2024',
+        link: 'https://drive.google.com/file/d/1nHoxUCSuFlVvRyz4QxRj-qIwkF-lieaa/view?usp=sharing',
+    },
+    {
+        id: 2,
+        pic: jbp,
+        date: 'Jul 2023 – Aug 2023',
+        imageUrl: mit,
+        icon: comp,
+        text: [
+            "Engineered a web-based visitor pass management system using Spring MVC and MySQL, implementing role-based access for security staff and administrators, reducing manual entry overhead for 50+ daily campus visitors."
+        ],
+        educationName: 'MIT Academy of Engineering',
+        schoolName: 'Web Development Internship | Remote | Summer Internship 2023',
+        link: 'https://drive.google.com/file/d/1MccAhyQpmt5L18ZcSS6H_j4Prt9K4afa/view?usp=sharing',
+    },
+    {
+        id: 3,
+        pic: jbp,
+        date: 'Aug 2022 – Sep 2022',
+        imageUrl: iitbh,
+        icon: comp,
+        text: [
+            "Developed 5+ responsive web pages using HTML, CSS, and JavaScript as part of a structured full-stack curriculum in collaboration with IIT Bhubaneswar, strengthening foundations in DOM manipulation and UI/UX principles."
+        ],
+        educationName: 'Teachnook (with IIT Bhubaneswar)',
+        schoolName: 'Web Development Internship | Remote | Summer Internship 2022',
+        link: 'https://drive.google.com/file/d/1hk2gyqoklJC52CCTQFlaKC7it14_53X5/view?usp=sharing',
+    }
+]
 
 // export const Education = [
 //     {
